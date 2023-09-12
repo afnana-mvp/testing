@@ -7,7 +7,7 @@ import image2 from "~/media_section/create/create_image2.png";
 import image3 from "~/media_section/create/create_image3.png";
 import image4 from "~/media_section/create/create_image4.png";
 import main_header from "~/media_section/create/create_main_header.png";
-
+import arrow from "~/media_section/create/arrow-right.svg";
 const Create = () => {
   const t = useTranslations("Create");
   return (
@@ -30,7 +30,7 @@ const Create = () => {
       </div>
       <div className="flex items-center justify-center container   max-w-screen-lg mx-auto ">
         <h1 className="text-white text-center text-sm md:text-3xl my-10 md:my-28">
-          {t("Discover the Endless Possibilities of AI-generated Art")}
+          Discover the Endless Possibilities of AI-generated Art
         </h1>
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5">
@@ -39,12 +39,23 @@ const Create = () => {
           alt="python image"
           className="flex-1 h-[200px] w-[200px] md:h-[500px]"
         />
-        <div className="flex items-center justify-center max-w-screen-lg mx-10 my-100 flex-col flex-1">
+        <div className="flex items-start justify-center max-w-screen-lg mx-10 my-100 flex-col flex-1">
           <h1 className="text-white text-sm md:text-4xl font-bold">
             {t("heading1")}
           </h1>
           <div className="text-[8px] md:text-2xl font-light">{t("para1")}</div>
-          <button>Try this feature</button>
+          <div className="flex items-center justify-center">
+            <div className="bg-gradient-to-r from-[#5901B1] to-[#056BC2] inline-block text-transparent w-10 h-10">
+              <div className="bg-background_color w-8 h-8"></div>
+            </div>
+          </div>
+
+          <div className="flex gap-2 ">
+            <button className="bg-gradient-to-r from-[#5901B1] to-[#056BC2] inline-block text-transparent bg-clip-text outline-1">
+              Try this feature
+            </button>
+            <Image src={arrow} alt="arrow" width={20} height={20} />
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5 my-14">

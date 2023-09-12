@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         background_color: "#111828",
         blue: "#94D4FF",
+        button: "linear-gradient(90deg, #5901B1 50%, #056BC2 81.36%);",
       },
     },
   },
