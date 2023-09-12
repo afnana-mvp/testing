@@ -1,12 +1,12 @@
 import React from "react";
-import rectangle from "../../../../public/media_section/create/Rectangle 30780.png";
-import design from "../../../../public/media_section/create/Frame.png";
-import group from "../../../../public/media_section/create/Group 48095545.png";
+import rectangle from "~/media_section/create/Rectangle 30780.png";
+import design from "~/media_section/create/Frame.png";
+import group from "~/media_section/create/Group 48095545.png";
 import Image from "next/image";
-import image1 from "../../../../public/media_section/create/Rectangle 30781.png";
-import image2 from "../../../../public/media_section/create/Rectangle 30782.png";
-import image3 from "../../../../public/media_section/create/Rectangle 30783.png";
-import image4 from "../../../../public/media_section/create/Group 1000001520 (1).png";
+import image1 from "~/media_section/create/Rectangle 30781.png";
+import image2 from "~/media_section/create/Rectangle 30782.png";
+import image3 from "~/media_section/create/Rectangle 30783.png";
+import image4 from "~/media_section/create/Group 1000001520 (1).png";
 const Create = () => {
   return (
     <div className="bg-background_color w-full -z-50 font-poppins">

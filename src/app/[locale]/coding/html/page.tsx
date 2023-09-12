@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import cSharpImage from "../../../../public/coding/csharp_tool/csharp_main.png";
+import cSharpImage from "~/coding/csharp_tool/csharp_main.png";
 
-import htmlIcon from "../../../../public/coding/html/html_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import htmlCode from "../../../../public/coding/html/html_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import htmlIcon from "~/coding/html/html_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import htmlCode from "~/coding/html/html_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const htmlCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50 ">

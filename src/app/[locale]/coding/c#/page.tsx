@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import cSharpImage from "../../../../public/coding/csharp_tool/csharp_main.png";
+import cSharpImage from "~/coding/csharp_tool/csharp_main.png";
 
-import cSharpIcon from "../../../../public/coding/csharp_tool/csharp_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import cSharpCode from "../../../../public/coding/csharp_tool/csharp_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import cSharpIcon from "~/coding/csharp_tool/csharp_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import cSharpCode from "~/coding/csharp_tool/csharp_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const CSharpCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50 ">

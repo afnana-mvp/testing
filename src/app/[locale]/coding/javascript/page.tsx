@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import jsImage from "../../../../public/coding/javascript_tool/js_main.png";
-import jsIcon from "../../../../public/coding/javascript_tool/js_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import jsCode from "../../../../public/coding/javascript_tool/js_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import jsImage from "~/coding/javascript_tool/js_main.png";
+import jsIcon from "~/coding/javascript_tool/js_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import jsCode from "~/coding/javascript_tool/js_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const JSCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">

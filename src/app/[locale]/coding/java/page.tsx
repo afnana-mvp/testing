@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import javaImage from "../../../../public/coding/java_tool/java_main.png";
+import javaImage from "~/coding/java_tool/java_main.png";
 
-import javaIcon from "../../../../public/coding/java_tool/java_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import javaCode from "../../../../public/coding/java_tool/java_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import javaIcon from "~/coding/java_tool/java_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import javaCode from "~/coding/java_tool/java_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const JavaCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">

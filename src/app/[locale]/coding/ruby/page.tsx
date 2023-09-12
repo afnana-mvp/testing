@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import rubyImage from "../../../../public/coding/ruby/ruby_main.png";
-import rubyIcon from "../../../../public/coding/ruby/ruby_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import rubyCode from "../../../../public/coding/ruby/ruby_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import rubyImage from "~/coding/ruby/ruby_main.png";
+import rubyIcon from "~/coding/ruby/ruby_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import rubyCode from "~/coding/ruby/ruby_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const PythonCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">

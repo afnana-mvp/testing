@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import pythonImage from "../../../../public/coding/python_tool/python_main.png";
+import pythonImage from "~/coding/python_tool/python_main.png";
 
-import dartIcon from "../../../../public/coding/dart/dart_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import dartCode from "../../../../public/coding/dart/dart_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import dartIcon from "~/coding/dart/dart_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import dartCode from "~/coding/dart/dart_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const CssCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">
