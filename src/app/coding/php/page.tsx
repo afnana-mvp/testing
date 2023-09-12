@@ -31,7 +31,7 @@ const CssCoding = () => {
         </p>
       </div>
       <div>
-        <h1 className="flex items-center  justify-center text-xl md:text-3xl text-center my-20">
+        <h1 className="flex items-center  justify-center text-xl md:text-3xl text-center max-w-screen-lg">
           How to Generate Php Code by Araby AI
         </h1>
       </div>
