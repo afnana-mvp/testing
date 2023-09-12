@@ -15,7 +15,7 @@ export default function RootLayout({ children, params }: { children: React.React
   const locale = useLocale();
 
   return (
-    <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"}>
+    <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"} className="scroll-smooth">
       <body className={locale === "en" ? poppins.className : arabic.className}>{children}</body>
     </html>
   );
