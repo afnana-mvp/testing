@@ -12,6 +12,7 @@ interface NavbarProps {}
 
 const Navbar: FC<NavbarProps> = () => {
   const locale = useLocale();
+
   const LanguageButton = () => {
     if (locale === "en") {
       return (
@@ -55,7 +56,7 @@ const Navbar: FC<NavbarProps> = () => {
         <section className="flex items-center gap-5 text-sm tracking-wide">
           <button className="font-semibold hover:text-[#026fad] ease-in duration-100">Logout</button>
           <button className="font-semibold px-10 py-3 rounded-full flex items-center gap-2 glow_button">
-            Join Now <ArrowRight className="rtl:rotate-180"/>
+            Join Now <ArrowRight className="rtl:rotate-180" />
           </button>
           <LanguageButton />
         </section>
@@ -65,3 +66,5 @@ const Navbar: FC<NavbarProps> = () => {
 };
 
 export default Navbar;
+
+import { useRouter } from "next/router";
