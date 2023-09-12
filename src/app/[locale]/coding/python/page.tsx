@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 <<<<<<<< HEAD:src/app/coding/python/page.tsx
-import pythonImage from "../../../../public/coding/python_tool/python_main.png";
-import pythonIcon from "../../../../public/coding/python_tool/python_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import pythonCode from "../../../../public/coding/python_tool/python_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import pythonImage from "~/coding/python_tool/python_main.png";
+import pythonIcon from "~/coding/python_tool/python_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import pythonCode from "~/coding/python_tool/python_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const PythonCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">
@@ -28,10 +28,10 @@ const PythonCoding = () => {
           className="w-20 h-30 sm:w-100 sm:h-200 flex-1"
         />
 ========
-import pythonImage from "../../../../public/python_tool/python_main.png";
-import pythonIcon from "../../../../public/python_tool/python_icon.png";
-import pythonHelp from "../../../../public/python_tool/python_help.png";
-import pythonCode from "../../../../public/python_tool/python_code.png";
+import pythonImage from "~/python_tool/python_main.png";
+import pythonIcon from "~/python_tool/python_icon.png";
+import pythonHelp from "~/python_tool/python_help.png";
+import pythonCode from "~/python_tool/python_code.png";
 import { useTranslations } from "next-intl";
 
 const Coding = () => {

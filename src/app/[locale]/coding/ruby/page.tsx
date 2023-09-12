@@ -1,50 +1,41 @@
 import React from "react";
 import Image from "next/image";
-import pythonImage from "../../../../public/coding/python_tool/python_main.png";
-
-import dartIcon from "../../../../public/coding/dart/dart_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import dartCode from "../../../../public/coding/dart/dart_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
-const CssCoding = () => {
+import rubyImage from "~/coding/ruby/ruby_main.png";
+import rubyIcon from "~/coding/ruby/ruby_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import rubyCode from "~/coding/ruby/ruby_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
+const PythonCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">
       <div className="flex items-center justify-center">
-        <Image
-          src={pythonImage}
-          alt="python image"
-          className=" w-full h-auto"
-        />
-        <h1 className="text-white absolute text-center text-xl md:text-3xl ">
-          Powerful for developers Dart language by{" "}
-          <span className="text-blue">ArabyAi</span>{" "}
-        </h1>
+        <Image src={rubyImage} alt="python image" className=" w-full h-auto" />
       </div>
       <div className="flex items-center container m-auto justify-center max-w-screen-lg mt-20">
         <Image
-          src={dartIcon}
+          src={rubyIcon}
           alt="python image"
           className="w-20 h-30 sm:w-100 sm:h-200"
         />
         <p className="text-xs md:text-base">
-          Dart is a programming language developed by Google. It is an
-          object-oriented, class-based language that is designed for building
-          scalable and high-performance applications. Here are some key features
-          and aspects of Dart programming:
+          Ruby is a dynamic, object-oriented programming language known for its
+          simplicity and productivity. It was created in the mid-1990s by
+          Yukihiro Matsumoto, also known as Matz. Here are some key points about
+          Ruby:
         </p>
       </div>
       <div>
         <h1 className="flex items-center  justify-center text-xl md:text-3xl text-center my-20">
-          How to Generate Dart Code by Araby AI
+          How to Generate Ruby Code by Araby AI
         </h1>
       </div>
       <div className="flex container m-auto flex-col md:flex-row items-center justify-center max-w-screen-lg gap-y-10  ">
         <p className="mx-8 text-xs md:text-base ">
-          Araby.AI can be a powerful assistant for Dart and Flutter developers,
-          offering support in coding, analysis, debugging, documentation
-          generation, and more, ultimately enhancing productivity and the
-          quality of mobile and web application development.
+          Araby.Ai can be a valuable assistant for Ruby programmers, offering
+          support in coding, code analysis, debugging, documentation generation,
+          and more, ultimately enhancing the efficiency and quality of Ruby
+          development projects.
         </p>
         <Image className="" src={pythonHelp} alt="python image" height={200} />
       </div>
@@ -62,7 +53,7 @@ const CssCoding = () => {
 
       <div className="flex container m-auto flex-col md:flex-row items-center justify-center max-w-screen-lg relative  ">
         <Image
-          src={dartCode}
+          src={rubyCode}
           alt="python image"
           className="scale-50 h-400px z-10"
         />
@@ -70,7 +61,7 @@ const CssCoding = () => {
           <li>Code Autocompletion</li>
           <li>Code Analysis</li>
           <li>Code Generation</li>
-          <li>Flutter Widget Suggestions</li>
+          <li>Refactoring Suggestions</li>
           <li>Debugging Support</li>
           <li>Natural Language Interfaces</li>
           <li>Code Reviews</li>
@@ -88,4 +79,4 @@ const CssCoding = () => {
   );
 };
 
-export default CssCoding;
+export default PythonCoding;

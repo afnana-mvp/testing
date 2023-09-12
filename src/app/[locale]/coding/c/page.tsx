@@ -1,54 +1,47 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import cSharpImage from "../../../../public/coding/csharp_tool/csharp_main.png";
+import cImage from "~/coding/c/c_main.png";
 
-import htmlIcon from "../../../../public/coding/html/html_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import htmlCode from "../../../../public/coding/html/html_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
-const htmlCoding = () => {
+import cIcon from "~/coding/c/c_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import cCode from "~/coding/c/c_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
+const CCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50 ">
       <div className="flex items-center justify-center">
-        <Image
-          src={cSharpImage}
-          alt="python image"
-          className=" w-full h-auto"
-        />
+        <Image src={cImage} alt="python image" className=" w-full h-auto" />
         <h1 className="text-white absolute text-center text-xl md:text-3xl ">
-          Powerful for developers Html language by{" "}
+          Powerful for developers C language by{" "}
           <span className="text-blue">ArabyAi</span>{" "}
         </h1>
       </div>
       <div className="flex items-center container m-auto justify-center max-w-screen-lg mt-20">
         <Image
-          src={htmlIcon}
+          src={cIcon}
           alt="python image"
           className="w-20 h-30 sm:w-100 sm:h-200"
         />
         <p className="text-xs md:text-base">
-          HTML stands for Hypertext Markup Language. It is the standard markup
-          language used for creating web pages and applications on the internet.
-          HTML uses tags to structure the content and define the elements on a
-          webpage, such as headings, paragraphs, images, links, and more. It is
-          the backbone of every web page and is essential for creating and
-          displaying content on the internet.
+          Certainly! Here is some information about the C programming language:
+          C is a general-purpose programming language that was developed in the
+          early 1970s by Dennis Ritchie at Bell Labs. It is a low-level language
+          that provides a high degree of control over hardware and memory,
+          making it suitable for system programming and developing efficient
+          applications.
         </p>
       </div>
-
       <div>
         <h1 className="flex items-center  justify-center text-xl md:text-3xl text-center my-20">
-          How to Generate Html Code by Araby AI
+          How to Generate C Code by Araby AI
         </h1>
       </div>
       <div className="flex container m-auto flex-col md:flex-row items-center justify-center max-w-screen-lg gap-y-10  ">
         <p className="mx-8 text-xs md:text-base ">
-          Araby.AI can be a valuable ally for HTML developers, offering
-          assistance in coding, error detection, accessibility, SEO, and even
-          content generation, thereby enhancing productivity and code quality in
-          web development projects.
+          Araby.AI can be a valuable assistant for C programmers by automating
+          repetitive tasks, enhancing code quality, and providing intelligent
+          suggestions and insights throughout the software development process.
         </p>
         <Image className="" src={pythonHelp} alt="python image" height={200} />
       </div>
@@ -66,21 +59,21 @@ const htmlCoding = () => {
 
       <div className="flex container m-auto flex-col md:flex-row items-center justify-center max-w-screen-lg relative  ">
         <Image
-          src={htmlCode}
+          src={cCode}
           alt="python image"
           className="scale-50 h-400px z-10"
         />
         <ul className="list-disc marker:text-white mx-8 text-xs md:text-base ">
-          <li>Code Autocompletion</li>
-          <li>Error Detection</li>
-          <li>Code Formatting</li>
-          <li>Accessibility Checks</li>
-          <li>HTML Generation</li>
-          <li>Responsive Design</li>
-          <li>Content Recommendations</li>
-          <li>SEO Optimization</li>
-          <li>HTML Templates</li>
+          <li>Code Generation and Autocompletion</li>
+          <li>Code Refactoring</li>
+          <li>Bug Detection and Error Handling</li>
+          <li>Code Documentation</li>
+          <li>Code Review and Collaboration</li>
+          <li>Predictive Analysis</li>
           <li>Natural Language Interfaces</li>
+          <li>Testing Automation</li>
+          <li>Code Translation and Migration</li>
+          <li>Personalized Learning</li>
         </ul>
         <Image
           src={pythonSide}
@@ -92,4 +85,4 @@ const htmlCoding = () => {
   );
 };
 
-export default htmlCoding;
+export default CCoding;

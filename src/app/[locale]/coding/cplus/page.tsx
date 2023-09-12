@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import javaImage from "../../../../public/coding/java_tool/java_main.png";
+import javaImage from "~/coding/java_tool/java_main.png";
 
-import cplusIcon from "../../../../public/coding/cplus_tool/c++_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import cplusCode from "../../../../public/coding/cplus_tool/c++_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import cplusIcon from "~/coding/cplus_tool/c++_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import cplusCode from "~/coding/cplus_tool/c++_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const CPlusCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50 ">

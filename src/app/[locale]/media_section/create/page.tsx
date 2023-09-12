@@ -1,13 +1,17 @@
 import React from "react";
-import rectangle from "../../../../public/media_section/create/Rectangle 30780.png";
-import design from "../../../../public/media_section/create/Frame.png";
-import group from "../../../../public/media_section/create/Group 48095545.png";
+import { useTranslations } from "next-intl";
+//media
+import rectangle from "~/media_section/create/create_backgrnd.png";
+import design from "~/media_section/create/Frame.png";
+import group from "~/media_section/create/create_header.png";
 import Image from "next/image";
-import image1 from "../../../../public/media_section/create/Rectangle 30781.png";
-import image2 from "../../../../public/media_section/create/Rectangle 30782.png";
-import image3 from "../../../../public/media_section/create/Rectangle 30783.png";
-import image4 from "../../../../public/media_section/create/Group 1000001520 (1).png";
+import image1 from "~/media_section/create/create_image1.png";
+import image2 from "~/media_section/create/create_image2.png";
+import image3 from "~/media_section/create/create_image3.png";
+import image4 from "~/media_section/create/create_image4.png";
+
 const Create = () => {
+  const t = useTranslations("Create");
   return (
     <div className="bg-background_color w-full -z-50 font-poppins">
       <div className="flex items-center justify-center relative">
@@ -28,19 +32,17 @@ const Create = () => {
         />
         <div className="flex items-center justify-center absolute z-10 flex-col mx-10 top-10 md:top-16 max-w-screen-lg gap-2 md:gap-10 ">
           <h1 className="text-white text-center text-sm  md:text-3xl lg:text-5xl font-bold">
-            Bring your Imagination to the Screen <br /> with
+            {t("headerText")}
             <span className="text-blue"> AI Art Generator</span>
           </h1>
           <h1 className=" text-white text-center text-[8px] md:text-base lg:text-2xl mx-10">
-            Transformative technology gives your low-quality visuals a stunning
-            HD upgrade. Restore old photos to incredible detail and elevate your
-            content to a professional level.
+            {t("headerTextSupport")}
           </h1>
         </div>
       </div>
       <div className="flex items-center justify-center container   max-w-screen-lg mx-auto ">
         <h1 className="text-white text-center text-sm md:text-3xl my-10 md:my-28">
-          Discover the Endless Possibilities of AI-generated Art
+          {t("Discover the Endless Possibilities of AI-generated Art")}
         </h1>
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5">
@@ -51,7 +53,7 @@ const Create = () => {
         />
         <div className="flex items-center justify-center max-w-screen-lg mx-10 my-100 flex-col flex-1">
           <h1 className="text-white text-sm md:text-4xl font-bold">
-            Experience the Boundless Creativity of AI
+            {t("Experience the Boundless Creativity of AI")}
           </h1>
           <div className="text-[8px] md:text-2xl font-light">
             Embark on a captivating journey into a compilation of mesmerizing
@@ -63,6 +65,7 @@ const Create = () => {
             unfold before your eyes, showcasing the profound impact of AI on the
             artistic landscape.
           </div>
+          <button>Try this feature</button>
         </div>
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5 my-14">
@@ -108,7 +111,7 @@ const Create = () => {
         <h1 className="text-white text-sm md:text-4xl font-bold">
           Images You Can Created
         </h1>
-        <Image src={image4} alt="python image" className="  " />
+        <Image src={image4} alt="python image" className="mx-14" />
       </div>
     </div>
   );

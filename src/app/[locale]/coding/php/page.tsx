@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import cssImage from "../../../../public/coding/css/css_main.png";
+import cssImage from "~/coding/css/css_main.png";
 
-import phpIcon from "../../../../public/coding/php/php_icon.png";
-import pythonHelp from "../../../../public/coding/python_tool/python_help.png";
-import phpCode from "../../../../public/coding/php/php_code.png";
-import pythonSide from "../../../../public/coding/python_tool/python_side.png";
-import pythonBackground from "../../../../public/coding/python_tool/python_background.png";
+import phpIcon from "~/coding/php/php_icon.png";
+import pythonHelp from "~/coding/python_tool/python_help.png";
+import phpCode from "~/coding/php/php_code.png";
+import pythonSide from "~/coding/python_tool/python_side.png";
+import pythonBackground from "~/coding/python_tool/python_background.png";
 const CssCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50  ">
