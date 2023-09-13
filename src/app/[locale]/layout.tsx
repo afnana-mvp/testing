@@ -25,7 +25,6 @@ export default function RootLayout({ children, params }: { children: React.React
     <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"} className="scroll-smooth">
       <body className={locale === "en" ? poppins.className : arabic.className}>
         <Navbar />
-        
         {children}
       </body>
     </html>

@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslations } from "next-intl";
-//media
 import Image from "next/image";
 import image1 from "~/media_section/create/create_image1.png";
 import image2 from "~/media_section/create/create_image2.png";
