@@ -1,21 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import cImage from "~/coding/c/c_main.png";
-<<<<<<< HEAD
-import cIcon from "~/coding/c/c_icon.png";
-import pythonHelp from "~/coding/python_tool/python_help.png";
-import cCode from "~/coding/c/c_code.png";
-import pythonSide from "~/coding/python_tool/python_side.png";
-import pythonBackground from "~/coding/python_tool/python_background.png";
-
-=======
 
 import cIcon from "~/coding/c/c_icon.png";
 import pythonHelp from "~/coding/python_tool/python_help.png";
 import cCode from "~/coding/c/c_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
->>>>>>> d2b3dafd83dca949ceef8c08ad58eacb0e3b79ac
 const CCoding = () => {
   return (
     <div className="bg-background_color w-full -z-50 ">
