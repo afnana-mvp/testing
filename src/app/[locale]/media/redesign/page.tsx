@@ -64,7 +64,7 @@ const Redesign = () => {
             </div>
           </div>
         </div>
-        <div className="h-full">
+        <div className=" h-[350px] md:h-[650px] lg:h-[750px]">
           {" "}
           <Image src={header_side} alt="python image" className="h-full" />
         </div>
