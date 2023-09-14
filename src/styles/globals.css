@@ -119,3 +119,6 @@ body {
 .gradient-border-3 {
   border: 3px solid transparent;
 }
+.bg-image {
+  background-size: 100% 70%;
+}

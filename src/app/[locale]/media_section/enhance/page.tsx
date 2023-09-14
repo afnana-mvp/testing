@@ -15,13 +15,17 @@ import image6 from "~/media_section//enhance/enhance_image6.png";
 const Enhance = () => {
   const t = useTranslations("Enhance");
   return (
-    <div className="bg-background_color overflow-hidden font-poppins">
+    <div className="bg-background_color overflow-hidden font-poppins text-center md:text-left flex items-center justify-center gap-10 flex-col ">
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5 mt-[100px]">
         <div className="flex  items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px] ">
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] ">
-            {t("enhanceheaderText")}
+            {t("enhanceheaderText")}{" "}
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("portrait")}
+            </span>
           </h1>
-          <div className="text-[12px] md:text-[20px] font-light">
+          <div className="text-[12px] md:text-[20px] font-light ">
             {t("enhanceheaderTextSupport")}
           </div>
           <button className="bg-[#1E7BF1] px-[10px] py-[5px] md:px-[25px] md:py-[15px] flex gap-2 rounded-lg text-[8px] md:text-[20px]">
@@ -55,7 +59,7 @@ const Enhance = () => {
       <div className="container">
         <div className="w-[300px] h-[300px] origin-center rounded-lg bg-gradient-to-r from-[#5901b16e] to-[#ff73b66e] blur-2xl mr-0 absolute -right-40"></div>
       </div>
-      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col gap-5 my-14">
+      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto  flex-col gap-5 ">
         <div className=" flex items-start justify-center relative ">
           <Image
             src={image2}
@@ -77,7 +81,7 @@ const Enhance = () => {
           <span className="font-bold">{t("authenticBold")}</span>
         </div>
       </div>
-      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col-reverse md:flex-row gap-5 my-14">
+      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto  flex-col-reverse md:flex-row gap-5 ">
         <Image
           src={image3}
           alt="python image"
@@ -85,17 +89,25 @@ const Enhance = () => {
         />
         <div className="flex  items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px]">
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
-            {t("enhanceheading1")}
+            {t("enhanceheading1")}{" "}
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("flaws")}
+            </span>
           </h1>
           <div className="text-[12px] md:text-xl font-light">
             {t("enhancepara1")}
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5">
+      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto  flex-col md:flex-row gap-5">
         <div className="flex items-center md:items-start justify-center max-w-screen-lg mx-[20px] my-100 flex-col flex-1 gap-[20px]">
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px]">
             {t("enhanceheading2")}
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("innerglow")}
+            </span>
           </h1>
           <div className="text-[12px] md:text-xl font-light">
             {t("enhancepara2")}
@@ -107,13 +119,13 @@ const Enhance = () => {
           className="flex-1 h-[200px] w-[200px] md:h-[500px]"
         />
       </div>
-      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto py-[100px] flex-col-reverse md:flex-row gap-5">
+      <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto flex-col-reverse md:flex-row gap-5">
         <Image
           src={image6}
           alt="python image"
           className="flex-1 h-[200px] w-[200px] md:h-[500px]"
         />
-        <div className="flex items-center md:items-start justify-center max-w-screen-lg mx-[20px] my-100 flex-col flex-1 gap-[20px]">
+        <div className="flex items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px]">
           <Image
             src={image5}
             alt="python image"
@@ -121,6 +133,10 @@ const Enhance = () => {
           />
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px]">
             {t("enhanceheading3")}
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("version")}
+            </span>
           </h1>
           <div className="text-[12px] md:text-xl font-light">
             {t("enhancepara3")}
