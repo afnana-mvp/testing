@@ -1,3 +1,4 @@
+//JAVASCRIPT HAS SAME HEADER IMAGE
 import React from "react";
 import Image from "next/image";
 import rubyImage from "~/coding/ruby/ruby_main.png";
