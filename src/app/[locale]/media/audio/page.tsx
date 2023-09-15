@@ -16,7 +16,7 @@ const Audio = () => {
         <div className="text-[12px] md:text-xl font-light w-5/6">
           {t("audioheaderText")}
         </div>
-        <div className="flex items-center justify-center gap-5  w-1/2 md:5/6 flex-row">
+        <div className="flex items-center justify-center  w-1/2 md:5/6 flex-row">
           <Image src={buttonleft} alt="art image" className=" " />
           <p className="text-[8px] md:text-[20px] font-light">
             {t("audioheaderTextButton")}
