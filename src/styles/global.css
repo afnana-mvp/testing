@@ -27,6 +27,7 @@ body {
 }
 
 .glow_button {
+  width: 180px;
   height: 45px;
   border: none;
   outline: none;
@@ -98,33 +99,4 @@ body {
   100% {
     background-position: 0 0;
   }
-}
-
-.araby_ai {
-  background-image: linear-gradient(90deg, #429ed6 78.88%, #85c7f0 100.56%);
-  background-clip: text;
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.border-gradient-br-blue-green-gray-900 {
-  background: linear-gradient(to right, #111828, #111828),
-    linear-gradient(to top left, #5901b1, #056bc2);
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-}
-.gradient-border-3 {
-  border: 3px solid transparent;
-}
-.bg-image {
-  background-size: 100% 70%;
-}
-.bg-image-height {
-  background-size: 20% 100%;
-}
-.bg-design-height {
-  background-size: 100% 100%;
 }

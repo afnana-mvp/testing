@@ -23,10 +23,10 @@ const Redesign = () => {
   const t = useTranslations("Redesign");
 
   return (
-    <div className="bg-background_color overflow-hidden font-poppins text-center md:text-left flex items-center justify-center gap-20 flex-col ">
+    <div className="bg-background_color overflow-hidden font-poppins text-center md:text-left flex items-center justify-center gap-20 flex-col relative">
       <div
         className="flex items-end justify-center flex-row container max-w-screen-lg
-      mt-[50px] md:mt-[100px] gap-2 h-full w-5/6"
+      mt-[50px] md:mt-[100px] gap-2 h-full w-5/6 "
       >
         <div className="flex items-center justify-center flex-col-reverse">
           {" "}
@@ -68,6 +68,10 @@ const Redesign = () => {
           {" "}
           <Image src={header_side} alt="python image" className="h-full" />
         </div>
+      </div>
+
+      <div className="container">
+        <div className="w-[300px] h-[300px] origin-center rounded-lg bg-gradient-to-r from-[#5901b16e] to-[#ff73b66e] blur-2xl mr-0 absolute  top-0"></div>
       </div>
       <div className="container max-w-screen-lg flex items-center justify-center flex-col text-center mx-auto w-5/6">
         <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] ">

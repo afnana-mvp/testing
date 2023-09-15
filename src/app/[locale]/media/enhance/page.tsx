@@ -2,9 +2,6 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 //media
-import ellipse1 from "~/media_section/enhance/ellipsetop.png";
-import ellipse2 from "~/media_section/enhance/ellipsebottom.png";
-
 import image1 from "~/media_section/enhance/enhance_image1.png";
 import image2 from "~/media_section/enhance/enhance_image2.png";
 import image3 from "~/media_section/enhance/enhance_image3.png";
@@ -56,6 +53,7 @@ const Enhance = () => {
           />
         </div>
       </div>
+      {/* purple design */}
       <div className="container">
         <div className="w-[300px] h-[300px] origin-center rounded-lg bg-gradient-to-r from-[#5901b16e] to-[#ff73b66e] blur-2xl mr-0 absolute -right-40"></div>
       </div>
