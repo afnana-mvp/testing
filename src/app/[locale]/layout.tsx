@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Poppins, Tajawal } from "next/font/google";
 import { useLocale } from "next-intl";
 import Navbar from "@/components/Header/navbar";
-import Footer from "@/components/Footer/footer";
+// import Footer from "@/components/Footer/footer";
 import { NextIntlClientProvider } from "next-intl";
 
 const poppins = Poppins({
@@ -35,7 +35,7 @@ export default async function RootLayout({ children, params }: { children: React
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </NextIntlClientProvider>
       </body>
     </html>
