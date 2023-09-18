@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.yourwebsite.com/app/locale</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/c</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/cplus</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/csharp</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/java</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/python</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/javascript</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/css</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/php</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/ruby</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/art</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/audio</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/enhance</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/redesign</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/remove</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  </urlset>
