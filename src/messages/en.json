@@ -1,7 +1,4 @@
 {
-  "Index": {
-    "Hello": "this is english"
-  },
   "Create": {
     "headerText": "Bring your Imagination to the Screen with",
     "headerTextSupport": "Transformative technology gives your low-quality visuals a stunning HD upgrade. Restore old photos to incredible detail and elevate your content to a professional level.",
@@ -289,5 +286,37 @@
     "dartbullet8": "Documentation Generation",
     "dartbullet9": "Predictive Analysis",
     "dartbullet10": "Testing Automation"
+  },
+  "Header": {
+    "Home": "Home",
+    "About": "About",
+    "Contact": "Contact",
+    "Blogs": "Blogs",
+    "Business": "Business",
+    "Pricing": "Pricing",
+    "Features": "Features",
+    "art": "art",
+    "audio": "audio",
+    "create": "create",
+    "enhance": "enhance",
+    "redesign": "redesign",
+    "removebg": "remove background",
+    "replacebg": "replace background",
+    "c": "c",
+    "c++": "c++",
+    "java": "java",
+    "python": "python",
+    "ruby": "ruby",
+    "Dart": "Dart",
+    "php": "php",
+    "javascript": "javascript",
+    "HTML": "HTML",
+    "css": "css",
+    "csharp": "c sharp",
+    "cplus": "c plus",
+    "Join Now": "Join Now",
+    "Logout": "Logout",
+    "Coding": "Coding",
+    "Media": "Media"
   }
 }
