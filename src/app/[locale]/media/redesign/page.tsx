@@ -6,13 +6,6 @@ import Image from "next/image";
 import image1 from "~/media_section/redesign/header1.png";
 import header_bottom from "~/media_section/redesign/header_bottom.png";
 import header_side from "~/media_section/redesign/header_side.png";
-
-import image2 from "~/media_section/redesign/header2.png";
-import image3 from "~/media_section/redesign/header3.png";
-import image4 from "~/media_section/redesign/header4.png";
-import image5 from "~/media_section/redesign/header5.png";
-import header from "~/media_section/redesign/header.png";
-import frame from "~/media_section/redesign/frame.png";
 import before from "~/media_section/redesign/before.png";
 import after from "~/media_section/redesign/after.png";
 import icon1 from "~/media_section/redesign/icon1.png";
@@ -74,7 +67,7 @@ const Redesign = () => {
         <div className="text-[12px] md:text-[20px] ">{t("redesignMainHeadingsupport")}</div>
       </div>
 
-      <div className="container max-w-screen-lg flex items-center justify-center flex-col  md:bg-[url('../../public/media_section/redesign/frame.png')] bg-image bg-no-repeat bg-bottom gap-20 pb-20 mx-auto">
+      <div className=" flex items-center justify-center flex-col  md:bg-[url('../../public/media_section/redesign/frame.png')] bg-image bg-no-repeat bg-bottom gap-20 pb-20 mx-auto w-full">
         <div className="flex items-center justify-center flex-col md:flex-row">
           <div className="flex items-center justify-center flex-col">
             <button className="bg-gradient-to-b from-[#0579C6] to-[#5901B1] rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">{t("before")}</button>
@@ -85,8 +78,8 @@ const Redesign = () => {
             <Image src={after} alt="python image" className="w-5/6" />
           </div>
         </div>
-        <div className="flex items-center justify-between m-auto gap-10 flex-col md:flex-row">
-          <div className="flex-1 flex items-center justify-center flex-col px-10 gap-10">
+        <div className="flex items-center justify-between m-auto gap-10 flex-col md:flex-row container">
+          <div className="flex-1 flex items-center justify-center flex-col px-10 gap-10 ">
             <Image src={icon1} alt="python image" className="w-[60px] " />
             <div className="font-normal text-sm md:text-[30px] leading-8">{t("redesignheading1")}</div>
             <div>{t("redesignpara1")}</div>

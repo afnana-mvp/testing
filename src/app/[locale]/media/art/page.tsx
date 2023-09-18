@@ -6,7 +6,6 @@ import Image from "next/image";
 import image1 from "~/media_section/art/image1.png";
 import header1 from "~/media_section/art/header1.png";
 import header2 from "~/media_section/art/header2.png";
-
 import image2 from "~/media_section/art/image2.png";
 import image3 from "~/media_section/art/image3.png";
 

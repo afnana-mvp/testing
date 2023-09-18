@@ -58,7 +58,7 @@ const RemoveBg = () => {
         <Image
           src={image1}
           alt="python image"
-          className="flex-1 h-[200px] w-[200px] md:h-[500px]"
+          className="flex-1 h-[200px] w-5/6 md:object-cover md:h-[500px] "
         />
         <div className="flex  items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px]">
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
@@ -89,14 +89,14 @@ const RemoveBg = () => {
         <Image
           src={image2}
           alt="python image"
-          className="flex-1 h-[200px] w-[200px] md:h-[500px]"
+          className="flex-1 h-[200px] w-5/6 md:object-cover md:h-[500px] object-cover"
         />
       </div>
       <div className="flex items-center justify-center md:mt-10 container  max-w-screen-lg mx-auto flex-col-reverse md:flex-row gap-5">
         <Image
           src={image3}
           alt="python image"
-          className="flex-1 h-[200px] w-[200px] md:h-[500px]"
+          className="flex-1 h-[200px]  md:h-[500px] w-5/6 md:object-cover"
         />
         <div className="flex items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px]">
           <Image

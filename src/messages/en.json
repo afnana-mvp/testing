@@ -106,6 +106,20 @@
     "audiofooter3": "Voice Characteristics",
     "audiofooterpara3": "Users can adjust parameters such as gender, age, pitch, tone, and accent to match their specific requirements or preferences. This level of customization enables users to create unique and tailored audio content."
   },
+  "RemoveVideo": {
+    "rmvideoheaderText": "Remove Video Background in Second by Araby AI",
+    "rmvideoheaderTextSupport": "Efficient and user-friendly solution for eliminating the background of a video using Araby AI technology",
+    "rmvideopopupheader": "Remove video background",
+    "rmvideopopupplaceholder": "Describe your speech",
+    "rmvideopopupbutton": "Create",
+    "rmvideoheading1": "Instantly Remove Video Backgrounds in the Blink of an Eye",
+    "rmvideopara1": "Araby AI's video background remover empowers you to separate individuals from the backdrop of a video, eliminating the need for a green screen. With just a few simple clicks, Araby AI effortlessly and automatically takes care of background removal for you!",
+    "rmvideoheading2": "How to Remove Video  Background by",
+    "rmvideopara2": "Choose to 'upload' your video through a traditional file upload process or simply 'drop' it into Araby AI's intuitive interface, all that's left for you to do is sit back and witness the enchanting transformation that Araby AI is about to perform.",
+    "rmvideoheading3": "Utilize Virtual Backgrounds for ",
+    "rmvideoheading3blueText": "Crafting Spectacular Videos!",
+    "rmvideopara3": "Your dream can now become a reality thanks to our complimentary online video editing software. This versatile tool empowers you to effortlessly swap out your initial background or green screen with an entirely new setting. What's more, you can infuse your video with animations, music, effects, and a host of other creative elements. No prior expertise in video editing is necessary, as our AI-powered background removal tool is designed to be user-friendly, swift, and an enjoyable experience!"
+  },
 
   "CCoding": {
     "cimageText": "Powerful for &#123; developers &#125; C language by ArabyAi   ",
