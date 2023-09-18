@@ -27,6 +27,7 @@ body {
 }
 
 .glow_button {
+  height: 45px;
   border: none;
   outline: none;
   color: #fff;
@@ -111,7 +112,14 @@ body {
 
 .border-gradient-br-blue-green-gray-900 {
   background: linear-gradient(to right, #111828, #111828),
-    linear-gradient(to top left, #5901b1, #056bc2);
+    linear-gradient(to top left, #8301b1, #056bc2);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.border-gradient-help {
+  background: linear-gradient(to right, #111828, #111828),
+    linear-gradient(to top left, #5901b1, #0579c6);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
 }
