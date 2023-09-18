@@ -1,6 +1,9 @@
-// import Coding from "@/app/coding/page";
-import Navbar from "@/components/Header/navbar";
+import CPlusCoding from "./coding/cplus/page";
 
 export default function Home() {
-  return <>{/* <Navbar /> */}</>;
+  return (
+    <>
+      <CPlusCoding />
+    </>
+  );
 }

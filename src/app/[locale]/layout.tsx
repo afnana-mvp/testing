@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Poppins, Tajawal } from "next/font/google";
 import { useLocale } from "next-intl";
 import Navbar from "@/components/Header/navbar";
+import Footer from "@/components/Footer/footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -26,6 +27,7 @@ export default function RootLayout({ children, params }: { children: React.React
       <body className={locale === "en" ? poppins.className : arabic.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
