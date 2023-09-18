@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import logo from "../../../public/brand.png";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import LLink from "next-intl/link";
 import saudi from "../../../public/languages/saudi.png";
@@ -16,6 +16,7 @@ import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 const Navbar = () => {
+  const clickOutsideRef = useRef();
   const t = useTranslations("Header");
   const pathname = usePathname();
   const locale = useLocale();
@@ -23,6 +24,20 @@ const Navbar = () => {
   const [showCoding, setShowCoding] = useState(false);
   const [showMedia, setShowMedia] = useState(false);
   const [showMobile, setShowMobile] = useState(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (clickOutsideRef.current && !clickOutsideRef.current.contains(event.target)) {
+        setShowMenu(false);
+        setShowCoding(false);
+        setShowMedia(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  },[clickOutsideRef]);
 
   const media = [
     {
@@ -173,7 +188,7 @@ const Navbar = () => {
                       }}
                     >
                       <button>{t("Coding")}</button>
-                      <ChevronDown className="w-5 rtl:rotate-180" />
+                      <ChevronDown className="w-5" />
                     </li>
                     <li>
                       {showCoding && (
@@ -187,7 +202,6 @@ const Navbar = () => {
                                 setShowCoding(false);
                                 setShowMobile(false);
                               }}
-                              className=" :hover:bg-black/50]"
                             >
                               <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
                             </Link>
@@ -203,7 +217,7 @@ const Navbar = () => {
                       }}
                     >
                       <button>{t("Media")}</button>
-                      <ChevronDown className="w-5 ml-auto rtl:mr-auto rtl:rotate-180" />
+                      <ChevronDown className="w-5 ml-auto rtl:mr-auto" />
                     </li>
                     <li>
                       {showMedia && (
@@ -255,13 +269,20 @@ const Navbar = () => {
                 {t("Business")}
               </Link>
             </li>
-            <li className="hover:text-[#026fad]">
-              <button onClick={() => setShowMenu(!showMenu)} className="flex justify-between gap-2 items-center">
+            <li className="hover:text-[#026fad]" ref={clickOutsideRef}>
+              <button
+                onClick={() => {
+                  setShowMedia(false);
+                  setShowCoding(false);
+                  setShowMenu(!showMenu);
+                }}
+                className="flex justify-between gap-2 items-center"
+              >
                 {t("Features")}
                 <ChevronDown className="w-5" />
               </button>
               {showMenu && (
-                <ul className="absolute bg-white rounded-md w-40">
+                <ul className="absolute bg-white top-16 rounded-md w-40">
                   <li
                     className="text-black flex justify-between gap-2 cursor-pointer px-5 py-2 items-center hover:text-[#026fad]"
                     onClick={() => {
