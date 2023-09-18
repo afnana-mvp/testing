@@ -158,9 +158,74 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link href="/business" className="flex justify-between gap-2 items-center">
-                  {t("Features")}
-                </Link>
+                <button className="flex justify-between gap-2 items-center" onClick={() => setShowMenu(!showMenu)}>
+                  {t("Features")} <ChevronDown />
+                </button>
+              </li>
+              <li>
+                {showMenu && (
+                  <ul className="relative ">
+                    <li
+                      className="text-white flex justify-between gap-2 cursor-pointer px-5 py-2 items-center hover:text-[#026fad]"
+                      onClick={() => {
+                        setShowCoding(!showCoding);
+                        setShowMedia(false);
+                      }}
+                    >
+                      <button>{t("Coding")}</button>
+                      <ChevronDown className="w-5 rtl:rotate-180" />
+                    </li>
+                    <li>
+                      {showCoding && (
+                        <ul className="text-white text-center rounded-md">
+                          {codingData.map((item, index) => (
+                            <Link
+                              href={item.link}
+                              key={index}
+                              onClick={() => {
+                                setShowMenu(false);
+                                setShowCoding(false);
+                                setShowMobile(false);
+                              }}
+                              className=" :hover:bg-black/50]"
+                            >
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
+                            </Link>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                    <li
+                      className="text-white flex justify-between gap-2 cursor-pointer items-center px-5 py-2  hover:text-[#026fad]"
+                      onClick={() => {
+                        setShowMedia(!showMedia);
+                        setShowCoding(false);
+                      }}
+                    >
+                      <button>{t("Media")}</button>
+                      <ChevronDown className="w-5 ml-auto rtl:mr-auto rtl:rotate-180" />
+                    </li>
+                    <li>
+                      {showMedia && (
+                        <ul className="text-center">
+                          {media.map((item, index) => (
+                            <Link
+                              href={item.link}
+                              key={index}
+                              onClick={() => {
+                                setShowMenu(false);
+                                setShowMedia(false);
+                                setShowMobile(false);
+                              }}
+                            >
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
+                            </Link>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  </ul>
+                )}
               </li>
             </ul>
           )}
