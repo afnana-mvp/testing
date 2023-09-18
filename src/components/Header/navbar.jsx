@@ -37,7 +37,7 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  },[clickOutsideRef]);
+  }, [clickOutsideRef]);
 
   const media = [
     {
@@ -82,6 +82,10 @@ const Navbar = () => {
     {
       name: "c#",
       link: "/coding/csharp",
+    },
+    {
+      name: "css",
+      link: "/coding/css",
     },
     {
       name: "java",
