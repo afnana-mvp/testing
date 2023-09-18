@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { ExternalLink } from "lucide-react";
 //media
 import image1 from "~/media_section/enhance/enhance_image1.png";
 import image2 from "~/media_section/enhance/enhance_image2.png";
@@ -16,31 +17,25 @@ const Enhance = () => {
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto my-100 flex-col md:flex-row gap-5 mt-[100px]">
         <div className="flex  items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px] ">
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] ">
-            {t("enhanceheaderText")} <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]"> {t("portrait")}</span>
+            {t("enhanceheaderText")}{" "}
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("portrait")}
+            </span>
           </h1>
-          <div className="text-[12px] md:text-[20px] font-light ">{t("enhanceheaderTextSupport")}</div>
+          <div className="text-[12px] md:text-[20px] font-light rtl:text-right ">
+            {t("enhanceheaderTextSupport")}
+          </div>
           <button className="bg-[#1E7BF1] px-[10px] py-[5px] md:px-[25px] md:py-[15px] flex gap-2 rounded-lg text-[8px] md:text-[20px]">
-            {t("try")} Araby.Ai{" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="lucide lucide-external-link w-[10px] h-[10px] md:w-[25px] md:h-[25px]"
-            >
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-              <polyline points="15 3 21 3 21 9" />
-              <line x1="10" x2="21" y1="14" y2="3" />
-            </svg>
+            {t("try")} Araby.Ai <ExternalLink className="rtl:-rotate-90" />
           </button>
         </div>
         <div>
-          <Image src={image1} alt="python image" className="flex-1 h-[150px] w-[200px] md:h-[300px] md:w-[350px] " />
+          <Image
+            src={image1}
+            alt="python image"
+            className="flex-1 h-[150px] w-[200px] md:h-[300px] md:w-[350px] object-contain"
+          />
         </div>
       </div>
       {/* purple design */}
@@ -49,45 +44,86 @@ const Enhance = () => {
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto  flex-col gap-5 ">
         <div className=" flex items-start justify-center relative ">
-          <Image src={image2} alt="python image" className="w-5/6 h-auto block" />
+          <Image
+            src={image2}
+            alt="python image"
+            className="w-5/6 h-auto block object-cover"
+          />
           <div className="absolute flex items-center justify-between w-4/6 py-[30px] md:py-[50px] text-[8px] md:text-[12px]">
-            <div className="bg-white rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">{t("before")}</div>
-            <div className="bg-white rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">{t("after")}</div>
+            <div className="bg-white rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">
+              {t("before")}
+            </div>
+            <div className="bg-white rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">
+              {t("after")}
+            </div>
           </div>
         </div>
         <div className="text-[8px] md:text-[16px]">
           {" "}
-          {t("authentic")} <span className="font-bold">{t("authenticBold")}</span>
+          {t("authentic")}{" "}
+          <span className="font-bold">{t("authenticBold")}</span>
         </div>
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto  flex-col-reverse md:flex-row gap-5 ">
-        <Image src={image3} alt="python image" className="flex-1 h-[200px] w-[200px] md:h-[500px]" />
+        <Image
+          src={image3}
+          alt="python image"
+          className="flex-1 h-[200px] w-[200px] md:h-[500px] object-contain"
+        />
         <div className="flex  items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px]">
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
-            {t("enhanceheading1")} <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]"> {t("flaws")}</span>
+            {t("enhanceheading1")}{" "}
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("flaws")}
+            </span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light">{t("enhancepara1")}</div>
+          <div className="text-[12px] md:text-xl font-light rtl:text-right">
+            {t("enhancepara1")}
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto  flex-col md:flex-row gap-5">
         <div className="flex items-center md:items-start justify-center max-w-screen-lg mx-[20px] my-100 flex-col flex-1 gap-[20px]">
-          <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px]">
+          <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] rtl:text-right">
             {t("enhanceheading2")}
-            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]"> {t("innerglow")}</span>
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("innerglow")}
+            </span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light">{t("enhancepara2")}</div>
+          <div className="text-[12px] md:text-xl font-light rtl:text-right">
+            {t("enhancepara2")}
+          </div>
         </div>
-        <Image src={image4} alt="python image" className="flex-1 h-[200px] w-[200px] md:h-[500px]" />
+        <Image
+          src={image4}
+          alt="python image"
+          className="flex-1 h-[200px] w-[200px] md:h-[500px] object-contain"
+        />
       </div>
       <div className="flex items-center justify-center  container  max-w-screen-lg mx-auto flex-col-reverse md:flex-row gap-5">
-        <Image src={image6} alt="python image" className="flex-1 h-[200px] w-[200px] md:h-[500px]" />
+        <Image
+          src={image6}
+          alt="python image"
+          className="flex-1 h-[200px] w-[200px] md:h-[500px] object-contain"
+        />
         <div className="flex items-center md:items-start justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px]">
-          <Image src={image5} alt="python image" className="flex-1 h-0 w-0 md:h-[500px] md:w-auto" />
+          <Image
+            src={image5}
+            alt="python image"
+            className="flex-1 h-0 w-0 md:h-[500px] md:w-auto object-cover"
+          />
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px]">
             {t("enhanceheading3")}
-            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]"> {t("version")}</span>
+            <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+              {" "}
+              {t("version")}
+            </span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light">{t("enhancepara3")}</div>
+          <div className="text-[12px] md:text-xl font-light rtl:text-right">
+            {t("enhancepara3")}
+          </div>
         </div>
       </div>
     </div>

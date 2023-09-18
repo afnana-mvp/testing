@@ -1,6 +1,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { ExternalLink } from "lucide-react";
+
 //media
 import image1 from "~/media_section/replacebg/image1.png";
 import image2 from "~/media_section/replacebg/image2.png";
@@ -15,7 +17,7 @@ const ReplaceBg = () => {
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
             {t("rpbgheading1")} <span className="araby_ai">ArabyAi</span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light">
+          <div className="text-[12px] md:text-xl font-light rtl:text-right">
             {t("rpbgpara1")}
           </div>
         </div>
@@ -42,12 +44,15 @@ const ReplaceBg = () => {
                 {t("rpbgheading2blueText")} {t("rpbgheading2supportText")}
               </span>
             </h1>
-            <div className="text-[12px] md:text-xl font-light">
+            <div className="text-[12px] md:text-xl font-light rtl:text-right">
               {t("rpbgpara2")}
             </div>
+            <button className="bg-[#1E7BF1] px-[10px] py-[5px] md:px-[25px] md:py-[15px] flex gap-2 rounded-lg text-[8px] md:text-[20px]">
+              {t("rpbgtry")} Araby.Ai{" "}
+              <ExternalLink className="rtl:-rotate-90" />
+            </button>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   );

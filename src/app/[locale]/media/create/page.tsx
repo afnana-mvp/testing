@@ -17,14 +17,14 @@ const Create = () => {
         <Image
           src={main_header}
           alt="create image"
-          className=" w-full h-80 md:h-auto"
+          className=" w-full h-auto object-cover"
         />
         <div className="flex items-center justify-center absolute flex-col mx-10 top-10 md:top-16 max-w-screen-lg gap-2 md:gap-10 ">
           <h1 className="text-white text-center text-sm  md:text-3xl lg:text-5xl font-semibold">
             {t("headerText")}
             <span className="text-blue"> AI Art Generator</span>
           </h1>
-          <h1 className=" text-white text-center text-[8px] md:text-[20px] lg:text-2xl mx-10 font-medium">
+          <h1 className=" text-white text-center text-[8px] md:text-[20px] lg:text-2xl mx-10 font-medium rtl:text-right">
             {t("headerTextSupport")}
           </h1>
         </div>
@@ -45,7 +45,7 @@ const Create = () => {
             {t("heading1")}
           </h1>
 
-          <div className="text-[12px] md:text-[20px] font-light">
+          <div className="text-[12px] md:text-[20px] font-light ">
             {t("para1")}
           </div>
           {/* try this button design start*/}
@@ -55,9 +55,15 @@ const Create = () => {
           >
             <div className=" flex items-center justify-center gap-[10px]">
               <div className="bg-gradient-to-r from-[#5901B1] to-[#056BC2] inline-block text-transparent bg-clip-text outline-[1px]">
-                Try this feature
+                {t("trythisfeature")}
               </div>
-              <Image src={arrow} alt="arrow" width={20} height={20} />
+              <Image
+                src={arrow}
+                alt="arrow"
+                width={20}
+                height={20}
+                className="rtl:rotate-180"
+              />
             </div>
           </button>
           {/* try this button design end*/}
@@ -76,9 +82,15 @@ const Create = () => {
           >
             <div className=" flex items-center justify-center gap-[10px]">
               <div className="bg-gradient-to-r from-[#5901B1] to-[#056BC2] inline-block text-transparent bg-clip-text outline-[1px]">
-                Try this feature
+                {t("trythisfeature")}
               </div>
-              <Image src={arrow} alt="arrow" width={20} height={20} />
+              <Image
+                src={arrow}
+                alt="arrow"
+                width={20}
+                height={20}
+                className="rtl:rotate-180"
+              />
             </div>
           </button>
           {/* try this button design end*/}
@@ -107,9 +119,15 @@ const Create = () => {
           >
             <div className=" flex items-center justify-center gap-[10px]">
               <div className="bg-gradient-to-r from-[#5901B1] to-[#056BC2] inline-block text-transparent bg-clip-text outline-[1px]">
-                Try this feature
+                {t("trythisfeature")}
               </div>
-              <Image src={arrow} alt="arrow" width={20} height={20} />
+              <Image
+                src={arrow}
+                alt="arrow"
+                width={20}
+                height={20}
+                className="rtl:rotate-180"
+              />
             </div>
           </button>
           {/* try this button design end*/}

@@ -9,80 +9,80 @@ import { useTranslations } from "next-intl";
 const CCoding = () => {
   const t = useTranslations("CCoding");
   return (
-    <div className="bg-background_color">
-      <div className="flex items-center w-full justify-center bg-[url('../../public/coding/c/deepLearning_background.png')]  bg-cover bg-center	bg-no-repeat h-[90vh]">
-        <h1 className="text-white text-center text-xl md:text-3xl font-semibold">
-          Powerful for &#123; developers &#125; C <br />
-          language by <span className="araby_ai">ArabyAi</span>
+    <div className="bg-background_color  flex items-center justify-center flex-col gap-[50px] text-center">
+      <div className="flex items-center w-full justify-center bg-[url('../../public/coding/c/deepLearning_background.png')]  bg-cover bg-center	bg-no-repeat h-[90vh] ">
+        <h1 className="text-white text-center text-xl md:text-3xl font-semibold container  ">
+          {t("cimageText")} <span className="araby_ai"> ArabyAi</span>
         </h1>
       </div>
-      <div className="container mx-auto md:px-32">
-        <div className="flex items-center m-auto justify-center gap-10 my-10">
-          <Image src={cIcon} alt="python image" width={120} />
-          <p className="text-xs md:text-base basis-9/12	">
-            Certainly! Here is some information about the C programming
-            language: C is a general-purpose programming language that was
-            developed in the early 1970s by Dennis Ritchie at Bell Labs. It is a
-            low-level language that provides a high degree of control over
-            hardware and memory, making it suitable for system programming and
-            developing efficient applications.
-          </p>
-        </div>
-        <div>
-          <h1 className="text-center text-xl md:text-3xl font-bold my-20">
-            How to Generate C Code by <span className="araby_ai">Araby AI</span>
-          </h1>
-        </div>
-        <div className="flex flex-wrap md:flex-row items-center justify-center gap-y-10  ">
-          <p className="mx-8 text-xs md:text-base basis-2/4	">
-            Araby.AI can be a valuable assistant for C programmers by automating
-            repetitive tasks, enhancing code quality, and providing intelligent
-            suggestions and insights throughout the software development
-            process.
-          </p>
-          <div className="w-96 h-40 rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[1px]">
-            <div className="flex h-full w-full items-center justify-center bg-gray-800 back rounded-md">
-              hel
-            </div>
-          </div>
-          {/* <Image className="" src={pythonHelp} alt="python image" height={200} /> */}
-        </div>
-        <div className=" flex items-center justify-center relative w-full h-full ">
-          <div className="absolute  w-full  mt-12">
-            <Image
-              className="m-auto"
-              src={pythonBackground}
-              alt="python image"
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
+      <div className="flex items-center  justify-center gap-10 flex-col md:flex-row w-5/6 ">
+        <Image src={cIcon} alt="python image" width={120} className="" />
+        <p className="text-[12px] md:text-xl basis-9/12	md:text-left rtl:text-right">
+          {t("ciconText")}
+        </p>
+      </div>
+      <div className="flex items-center justify-center w-5/6 md:w-full">
+        <h1 className="text-center text-xl md:text-3xl font-bold container ">
+          {t("cheading")}
+          <span className="araby_ai"> Araby AI</span>
+        </h1>
+      </div>
+      <div className="flex items-center justify-center  container flex-col md:flex-row  md:w-2/3 gap-10 md:gap-0 ">
+        <p className="mx-8 text-[12px] md:text-xl md:text-left basis-1/2 rtl:text-right">
+          {t("chelpText")}
+        </p>
 
-        <div className="flex container m-auto flex-col md:flex-row items-center justify-center max-w-screen-lg relative  ">
+        <div className="border-gradient-help inline-flex items-center  border-solid border-2 rounded-xl text-gray-100 text-xs md:text-lg gradient-border-3  flex-col  justify-center  gap-5 md:gap-5 p-1   basis-1/2 w-[200px] md:w-auto h-[500px]">
+          <div className="bg-[#1c1c1ccc] w-full  flex justify-center items-center flex-col gap-5  object-contain h-full">
+            <div className="text-sm md:text-[40px] leading-[20px] md:leading-[40px] text-[#6A6A6A] text-left">
+              {" "}
+              Araby AI
+            </div>
+            <div className="text-sm leading-[20px] md:leading-[40px] md:text-[40px] w-full">
+              {t("chelpheading")}
+            </div>
+            <input className="border-2 border-[#6900FF] rounded-lg  w-5/6 p-2  text-[12px] md:text-[16px] text-black bg-[#1c1c1ccc]" />
+            <button className="bg-gradient-to-r from-[#880CC2] to-[#6900FF] px-10 py-1  text-white text-[8px] md:text-[20px]">
+              {t("center")}
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className=" flex items-center justify-center relative w-full h-full ">
+        <div className="absolute  w-full  mt-12">
           <Image
-            src={cCode}
+            className="m-auto hidden md:block"
+            src={pythonBackground}
             alt="python image"
-            className="scale-50 h-400px z-10"
-          />
-          <ul className="list-disc marker:text-white mx-8 text-xs md:text-base ">
-            <li>Code Generation and Autocompletion</li>
-            <li>Code Refactoring</li>
-            <li>Bug Detection and Error Handling</li>
-            <li>Code Documentation</li>
-            <li>Code Review and Collaboration</li>
-            <li>Predictive Analysis</li>
-            <li>Natural Language Interfaces</li>
-            <li>Testing Automation</li>
-            <li>Code Translation and Migration</li>
-            <li>Personalized Learning</li>
-          </ul>
-          <Image
-            src={pythonSide}
-            alt="python image"
-            className="scale-50 h-400px absolute top-36 left-full invisible md:visible"
+            width={500}
+            height={500}
           />
         </div>
+      </div>
+
+      <div className="flex container  flex-col-reverse md:flex-row items-center justify-center  relative  gap-10 md:gap-36 pb-20 ">
+        <Image
+          src={cCode}
+          alt="python image"
+          className=" md:w-1/3 w-1/2  object-cover z-10"
+        />
+        <ul className="list-disc marker:text-white text-left text-[12px] md:text-xl rtl:text-right ">
+          <li>{t("cbullet1")}</li>
+          <li>{t("cbullet2")}</li>
+          <li>{t("cbullet3")}</li>
+          <li>{t("cbullet4")}</li>
+          <li>{t("cbullet5")}</li>
+          <li>{t("cbullet6")}</li>
+          <li>{t("cbullet7")}</li>
+          <li>{t("cbullet8")}</li>
+          <li>{t("cbullet9")}</li>
+          <li>{t("cbullet10")}</li>
+        </ul>
+        <Image
+          src={pythonSide}
+          alt="python image"
+          className="scale-50 h-400px absolute top-36 right-0 invisible md:visible"
+        />
       </div>
     </div>
   );

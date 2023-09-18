@@ -10,12 +10,16 @@ import textbottom from "~/media_section/audio/textbottom.png";
 import image1design2 from "~/media_section/audio/image1design2.png";
 import image2design from "~/media_section/audio/image2design.png";
 import image2 from "~/media_section/audio/image2.png";
+import icon1 from "~/media_section/audio/icon1.png";
+import icon2 from "~/media_section/audio/icon2.png";
+import icon3 from "~/media_section/audio/icon3.png";
+import icon32 from "~/media_section/audio/footerbckgrnd.png";
 
 const Audio = () => {
   const t = useTranslations("Audio");
 
   return (
-    <div className="bg-background_color overflow-hidden font-poppins text-center flex items-center justify-center gap-10 flex-col ">
+    <div className="bg-background_color overflow-hidden font-poppins text-center flex items-center justify-center  md:gap-10 flex-col ">
       <div className="  bg-[url('../../public/media_section/audio/headerbg.png')]  bg-cover bg-center	bg-no-repeat w-full flex items-center justify-center">
         <div className="flex items-center justify-center flex-col gap-10 mt-[50px] container max-w-screen-lg w-5/6">
           <Image src={headerimage} alt="art image" className="w-5/6 " />
@@ -42,7 +46,7 @@ const Audio = () => {
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold w-1/2 md:text-left">
             {t("audioheading1")}{" "}
           </h1>
-          <div className="text-[12px] md:text-xl md:text-left font-light md:w-1/2 w-full">
+          <div className="text-[12px] md:text-xl md:text-left font-light md:w-1/2 w-full rtl:text-right">
             {t("audiopara1")}
           </div>
         </div>
@@ -55,7 +59,7 @@ const Audio = () => {
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
             {t("audioheading2")}{" "}
           </h1>
-          <div className="text-[12px] md:text-xl md:text-left font-light">
+          <div className="text-[12px] md:text-xl md:text-left font-light rtl:text-right">
             {t("audiopara2")}
           </div>
         </div>
@@ -87,18 +91,51 @@ const Audio = () => {
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
             {t("audioheading2")}{" "}
           </h1>
-          <div className="text-[12px] md:text-xl md:text-left font-light">
+          <div className="text-[12px] md:text-xl md:text-left font-light rtl:text-right">
             {t("audiopara2")}
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center  gap-10 mt-[50px]  flex-col md:flex-row md:bg-[url('../../public/media_section/audio/image3.png')]  bg-cover bg-center	bg-no-repeat    md:h-[300px] bg-image-height  rounded-3xl w-2/3  ">
-        <div className="flex  items-center justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px] container  md:w-5/6 border-gradient-br-blue-green-gray-900 border-solid border-2 rounded-xl  gradient-border-3">
-          <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
-            {t("audioheading4")}{" "}
-          </h1>
-          <div className="text-[12px] md:text-xl font-light">
-            {t("audiopara4")}
+      <div className=" p-4 flex items-center justify-center md:border-2 border-[#5901B1] rounded-3xl">
+        <div className="flex items-center justify-center  gap-10 mt-[50px]  flex-col md:flex-row md:bg-[url('../../public/media_section/audio/image3.png')]  bg-cover bg-center	bg-no-repeat    md:h-[300px] bg-image-height  rounded-3xl w-2/3  ">
+          <div className="flex  items-center justify-center max-w-screen-lg mx-[20px]  flex-col flex-1 gap-[20px] container  md:w-5/6  rounded-xl  ">
+            <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
+              {t("audioheading4")}{" "}
+            </h1>
+            <div className="text-[12px] md:text-xl font-light rtl:text-right">
+              {t("audiopara4")}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className=" flex items-center justify-center flex-col   bg-image bg-no-repeat  gap-20 pb-20 mx-auto w-full md:bg-[url('../../public/media_section/audio/footerbckgrnd.png')] md:h-[500px] mt-20 md:mt-0 ">
+        <div className="flex items-center justify-between  gap-10 flex-col md:flex-row container">
+          <div className="flex-1 flex items-center justify-center flex-col px-10 md:gap-10 ">
+            <Image src={icon1} alt="python image" className="w-[60px] " />
+            <div className="font-normal text-sm md:text-[30px] leading-8">
+              {t("audiofooter1")}
+            </div>
+            <div className="rtl:text-right text-[12px] md:text-xl font-light">
+              {t("audiofooterpara1")}
+            </div>
+          </div>
+          <div className="flex-1 flex items-center justify-center flex-col px-10 md:gap-10">
+            <Image src={icon2} alt="python image" className="w-[60px]" />
+            <div className="font-normal text-sm md:text-[30px] leading-8">
+              {t("audiofooter2")}
+            </div>
+            <div className="rtl:text-right text-[12px] md:text-xl font-light">
+              {t("audiofooterpara2")}
+            </div>
+          </div>
+          <div className="flex-1 flex items-center justify-center flex-col px-10 md:gap-10">
+            <Image src={icon3} alt="python image" className="w-[60px]" />
+            <div className="font-normal text-sm md:text-[30px] leading-8">
+              {t("audiofooter3")}
+            </div>
+            <div className="rtl:text-right text-[12px] md:text-xl font-light">
+              {t("audiofooterpara3")}
+            </div>
           </div>
         </div>
       </div>
