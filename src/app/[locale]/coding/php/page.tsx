@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import cssImage from "~/coding/css/css_main.png";
+import cssImage from "~/coding/csharp_tool/csharp_main.png";
 
 import phpIcon from "~/coding/php/php_icon.png";
 import pythonHelp from "~/coding/python_tool/python_help.png";
