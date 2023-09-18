@@ -62,7 +62,11 @@ const Navbar = () => {
     },
     {
       name: "c++",
-      link: "/coding/c++",
+      link: "/coding/cplus",
+    },
+    {
+      name: "c#",
+      link: "/coding/csharp",
     },
     {
       name: "java",
