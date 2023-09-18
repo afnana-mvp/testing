@@ -26,10 +26,13 @@ let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 
+const newData = new Date().toISOString();
+
 pages.forEach((page) => {
   sitemapContent += `
     <url>
         <loc>https://www.yourwebsite.com/${page}</loc>
+        <lastmod>${newData}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
