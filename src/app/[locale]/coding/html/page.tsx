@@ -8,7 +8,7 @@ import htmlIcon from "~/coding/html/html_icon.png";
 import htmlCode from "~/coding/html/html_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
-const htmlCoding = () => {
+const HtmlCoding = () => {
   const t = useTranslations("Html");
 
   return (
@@ -91,4 +91,4 @@ const htmlCoding = () => {
   );
 };
 
-export default htmlCoding;
+export default HtmlCoding;
