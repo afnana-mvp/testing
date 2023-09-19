@@ -3,7 +3,6 @@ import Image from "next/image";
 import cssImage from "~/coding/csharp_tool/csharp_main.png";
 import { useTranslations } from "next-intl";
 import cssIcon from "~/coding/css/css_icon.png";
-import pythonHelp from "~/coding/python_tool/python_help.png";
 import cssCode from "~/coding/css/css_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
@@ -12,7 +11,7 @@ const CssCoding = () => {
 
   return (
     <div className="bg-background_color  flex items-center justify-center flex-col gap-[50px] text-center">
-      <div className="flex items-center w-full justify-center bg-[url('../../public/coding/c/deepLearning_background.png')]  bg-cover bg-center	bg-no-repeat h-[90vh] ">
+      <div className="flex items-center w-full justify-center bg-[url('../../public/coding/css/css_main.png')]  bg-cover bg-center	bg-no-repeat h-[90vh] ">
         <h1 className="text-white text-center text-xl md:text-3xl font-semibold container  ">
           {t("cssimageText")} <span className="araby_ai"> ArabyAi</span>
         </h1>

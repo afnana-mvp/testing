@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import cIcon from "~/coding/c/c_icon.png";
-import pythonHelp from "~/coding/python_tool/python_help.png";
 import cCode from "~/coding/c/c_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
