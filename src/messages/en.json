@@ -329,6 +329,39 @@
     "fbheading3part1": "With just a few clicks, ",
     "fbheading3part2": "and your Ad will be ready!"
   },
+  "LinkedIn": {
+    "linkheading1part1": "Your Linkedin to ",
+    "linkheading1part2": "Impactful Connections",
+    "linkpara1": "Give the blog topic generator a go! Your #1 source for generating trendy and unique article ideas on any topic in seconds.",
+    "linktrybutton": "Try now Free",
+    "linkheading2": "Crafting a compelling LinkedIn ad is a breeze with Araby.ai!",
+    "linkpara2": "Our intuitive platform and AI-driven features make it effortless to design impactful ads in Arabic. From generating persuasive copy to selecting attention-grabbing visuals, Araby.ai streamlines the ad creation process. Experience the simplicity and effectiveness of using Araby.ai to create LinkedIn ads that resonate with your professional audience and drive meaningful engagement.",
+    "linkheading3part1": "With just a few clicks, ",
+    "linkheading3part2": "and your Ad will be ready!"
+  },
+  "Tweet": {
+    "tweetheading1part1": "Create Captivating",
+    "tweetheading1part2": "TWEET ",
+    "tweetheading1part3": " With a Click!",
+    "tweetpara1": "Make your followers go “wow!” by coming up with unique and engaging tweets that create impact with ArabyAi Tweet Generator!",
+    "tweettrybutton": "Try now Free",
+    "tweetmainheading": "Making Twitter Ad has never been simpler with Araby.ai",
+    "tweetheading2": "Craft a perfect tweet in seconds",
+    "tweetpara2": "Our user-friendly platform and AI-powered tools make it effortless to design captivating ads in Arabic. From generating compelling copy to selecting eye-catching visuals, Araby.ai takes the hassle out of ad creation. Experience the ease and efficiency of using Araby.ai to create Twitter ads that grab attention, engage your audience, and drive results.",
+    "tweetheading3part1": "With just a few clicks, ",
+    "tweetheading3part2": "and your Ad will be ready!"
+  },
+  "Ads": {
+    "adsheading1part1": "AI Marketing.",
+    "adsheading1part2": "Optimized Marketing Reach.",
+    "adspara1": "Our vision is to revolutionize the way brands and advertisers reach their target markets!",
+    "adsstartbutton": "Get Started",
+    "adsmainheading": "Generate Ad Content that Gets More Clicks and Conversions!",
+    "adsheading2": "Create high-converting ads in seconds.",
+    "adspara2": "No more spending hours brainstorming the perfect Ad! With ArabyAI ads generator, you can create ads in seconds that can help you make the most out of your marketing campaign.",
+    "adsheading3": "Get more out of your ad budget",
+    "adspara3": "Time to optimize your entire campaign by putting your ads creation on autopilot mode. Araby Ai’s ads content generator can help you come up with high-converting copy that can help you improve your click-through rate."
+  },
   "Header": {
     "Home": "Home",
     "About": "About",

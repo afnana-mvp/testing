@@ -115,6 +115,12 @@ body {
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
 }
+.border-gradient-br-start-button {
+  background: linear-gradient(to right, black, black),
+    linear-gradient(to top left, #ff2df7, #5200ff);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
 
 .border-gradient-help {
   background: linear-gradient(to right, #111828, #111828),
