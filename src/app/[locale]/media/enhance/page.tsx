@@ -88,7 +88,6 @@ const Enhance = () => {
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] rtl:text-right">
             {t("enhanceheading2")}
             <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
-              {" "}
               {t("innerglow")}
             </span>
           </h1>

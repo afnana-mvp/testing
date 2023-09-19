@@ -61,7 +61,7 @@ const Art = () => {
           <div className="flex items-start md:items-start  max-w-screen-lg mx-auto my-100 flex-col flex-1 gap-[10px] md:gap-[20px] text-left container md:w-1/2 md:mr-0">
             <h1 className="text-white text-sm md:text-[30px] font-semibold leading-[20px] md:leading-[40px] rtl:text-right">
               {t("artheading1")}
-              <span className="araby_ai">ArabyAi</span>
+              <span className="araby_ai"> ArabyAi</span>
             </h1>
             <div className="text-[10px] md:text-xl font-light rtl:text-right">
               {t("artpara1")}

@@ -74,7 +74,9 @@ const RemoveVideo = () => {
             <div className="flex items-center justify-center flex-col text-black gap-2">
               <h1 className=" text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold container max-w-screen-lg">
                 {t("rmvideoheading3")}
-                {t("rmvideoheading3blueText")}
+                <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
+                  {t("rmvideoheading3blueText")}
+                </span>
               </h1>
               <div className="text-[12px] md:text-xl font-light">
                 {t("rmvideopara3")}

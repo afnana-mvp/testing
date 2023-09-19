@@ -24,10 +24,10 @@
     "enhanceheading1": "Eliminate",
     "flaws": "Flaws",
     "enhancepara1": "Araby Ai is an innovative solution that goes beyond mere analysis, effectively transforming uneven skin texture into a flawlessly smooth and radiant complexion. By targeting imperfections and eliminating blemishes, it enhances the overall appearance, leaving you with a truly flawless and radiant look.",
-    "enhanceheading2": "Unleash Your",
-    "innerglow": "InnerGlow",
+    "enhanceheading2": "Unleash Your ",
+    "innerglow": " InnerGlow",
     "enhancepara2": "With Araby Ai, prepare to radiate in every photo as it effortlessly enhances your best features, adjusting the lighting and colors to perfection. It goes beyond just smoothing your skin; it brightens your eyes and teeth, ensuring that you look your absolute best. Say goodbye to dull and lackluster shots and get ready to shine with Araby Ai!",
-    "enhanceheading3": "Present the Best",
+    "enhanceheading3": "Present the Best ",
     "version": "Version of You",
     "enhancepara3": "Araby Ai's Face Beautifier feature preserves and enhances the inherent beauty of each individual by making subtle adjustments that accentuate facial features while maintaining unique qualities. With Araby Ai, you can confidently improve your appearance while embracing your own unique beauty."
   },
@@ -70,7 +70,7 @@
     "rmbgheading2": "Witness the ",
     "rmbgheading2blueText": "Speed and Precision",
     "rmbgpara2": "Say goodbye to hours spent manually editing photos and hello to a seamless and streamlined process.",
-    "rmbgheading3": "Put Your Best",
+    "rmbgheading3": "Put Your Best ",
     "rmbgheading3blueText": "Face Forward",
     "rmbgpara3": "By ensuring that your face is well-lit, centered, and unobstructed, the tool will be better equipped to accurately remove the background from your image."
   },
@@ -113,7 +113,7 @@
     "rmvideopopupbutton": "Create",
     "rmvideoheading1": "Instantly Remove Video Backgrounds in the Blink of an Eye",
     "rmvideopara1": "Araby AI's video background remover empowers you to separate individuals from the backdrop of a video, eliminating the need for a green screen. With just a few simple clicks, Araby AI effortlessly and automatically takes care of background removal for you!",
-    "rmvideoheading2": "How to Remove Video  Background by",
+    "rmvideoheading2": "How to Remove Video  Background by ",
     "rmvideopara2": "Choose to 'upload' your video through a traditional file upload process or simply 'drop' it into Araby AI's intuitive interface, all that's left for you to do is sit back and witness the enchanting transformation that Araby AI is about to perform.",
     "rmvideoheading3": "Utilize Virtual Backgrounds for ",
     "rmvideoheading3blueText": "Crafting Spectacular Videos!",
@@ -143,6 +143,7 @@
     "jsiconText": "JavaScript is a programming language commonly used for creating interactive and dynamic web content. It is primarily used for client-side scripting, allowing developers to add functionality to websites and web applications. JavaScript can also be used for server-side development with the help of frameworks like Node.js. It is a versatile language that is widely supported by web browsers and has a large ecosystem of libraries and frameworks.",
     "jsheading": " How to Generate Java Script Code by",
     "jshelpHeading": "How can I help you?",
+    "jsenter": "Enter",
     "jshelpText": "  Araby.AI can play a significant role in enhancing JavaScript programming by offering code assistance, analysis, and optimization. These AI-driven tools and techniques aim to improve code quality, developer productivity, and the overall performance of JavaScript applications. ",
     "jsbullet1": "Code Autocompletion",
     "jsbullet2": "Code Analysis and Error Detection",
@@ -156,10 +157,11 @@
     "jsbullet10": "Accessibility Tools"
   },
   "Java": {
-    "javaimageText": "Powerful for developers Java Script Language by",
+    "javaimageText": "Powerful for developers Java Language by",
     "javaiconText": "JavaScript is a programming language commonly used for creating interactive and dynamic web content. It is primarily used for client-side scripting, allowing developers to add functionality to websites and web applications. JavaScript can also be used for server-side development with the help of frameworks like Node.js. It is a versatile language that is widely supported by web browsers and has a large ecosystem of libraries and frameworks.",
     "javaheading": " How to Generate Java Script Code by ",
     "javahelpHeading": "How can I help you?",
+    "javaenter": "Enter",
     "javahelpText": "  Araby.AI can play a significant role in enhancing JavaScript programming by offering code assistance, analysis, and optimization. These AI-driven tools and techniques aim to improve code quality, developer productivity, and the overall performance of JavaScript applications. ",
     "javabullet1": "Code Autocompletion",
     "javabullet2": "Code Analysis and Error Detection",
@@ -177,6 +179,7 @@
     "cplusiconText": "C++ is a high-level programming language that is widely used for developing a variety of applications. It is an extension of the C programming language and supports object-oriented programming. C++ is known for its efficiency, performance, and flexibility, making it suitable for a wide range of applications, including system software, game development, and embedded systems.",
     "cplusheading": " How to Generate C++ Code by ",
     "cplushelpHeading": "How can I help you?",
+    "cplusenter": "Enter",
     "cplushelpText": "Araby.AI can greatly improve your C++ programming by providing code support, conducting analysis, and optimizing. These AI-powered tools and methods are focused on enhancing code quality, boosting developer efficiency, and enhancing the overall performance and security of C++ applications.",
     "cplusbullet1": "Code Autocompletion",
     "cplusbullet2": "Error Detection and Correction",
@@ -208,11 +211,12 @@
     "csharpbullet10": "Personalized Learning"
   },
   "Html": {
-    "htmlimageText": "Powerful for {developers} HTML language by",
+    "htmlimageText": "Powerful for developers HTML language by",
     "htmliconText": "HTML stands for Hypertext Markup Language. It is the standard markup language used for creating web pages and applications on the internet. HTML uses tags to structure the content and define the elements on a webpage, such as headings, paragraphs, images, links, and more. It is the backbone of every web page and is essential for creating and displaying content on the internet.",
     "htmlheading": " How to Generate Html Code by ",
     "htmlhelpHeading": "How can I help you?",
     "htmlhelpText": "Araby.AI can be a valuable ally for HTML developers, offering assistance in coding, error detection, accessibility, SEO, and even content generation, thereby enhancing productivity and code quality in web development projects.",
+    "htmlenter": "Enter",
     "htmlbullet1": "Code Autocompletion",
     "htmlbullet2": "Error Detection",
     "htmlbullet3": "Code Formatting",
@@ -225,11 +229,12 @@
     "htmlbullet10": "Natural Language Interfaces"
   },
   "Css": {
-    "cssimageText": "Powerful for {developers} CSS language by",
+    "cssimageText": "Powerful for developers CSS language by",
     "cssiconText": "CSS stands for Cascading Style Sheets. It is a programming language used for styling web pages and defining the layout, colors, fonts, and other visual aspects of a website. CSS allows web developers to separate the design and presentation of a website from its structure and content. It is widely used in conjunction with HTML and JavaScript to create visually appealing and responsive web pages.",
     "cssheading": " How to Generate Css Code by ",
     "csshelpHeading": "How can I help you?",
     "csshelpText": "Araby.AI can enhance CSS development by offering assistance in autocompletion, optimization, responsive design, compatibility testing, accessibility, and more, helping web developers create visually appealing and user-friendly websites efficiently.",
+    "cssenter": "Enter",
     "cssbullet1": "Code Autocompletion",
     "cssbullet2": "Responsive Design",
     "cssbullet3": "Code Optimization",
@@ -242,10 +247,11 @@
     "cssbullet10": "Real-time Previews"
   },
   "Ruby": {
-    "rubyimageText": "Powerful for {developers} Ruby language by",
+    "rubyimageText": "Powerful for developers Ruby language by",
     "rubyiconText": "Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. It was created in the mid-1990s by Yukihiro Matsumoto, also known as Matz. Here are some key points about Ruby:",
     "rubyheading": " How to Generate Ruby Code by ",
     "rubyhelpHeading": "How can I help you?",
+    "rubyenter": "Enter",
     "rubyhelpText": "Araby.Ai can be a valuable assistant for Ruby programmers, offering support in coding, code analysis, debugging, documentation generation, and more, ultimately enhancing the efficiency and quality of Ruby development projects.",
     "rubybullet1": "Code Autocompletion",
     "rubybullet2": "Code Analysis",
@@ -259,10 +265,11 @@
     "rubybullet10": "Testing Automation"
   },
   "Php": {
-    "phpimageText": "Powerful for {developers} Php language by",
+    "phpimageText": "Powerful for developers Php language by",
     "phpiconText": "PHP (Hypertext Preprocessor) is a popular server-side scripting language used for web development. It is primarily used for creating dynamic web pages and web applications. Here are some key points about PHP",
     "phpheading": " How to Generate Php Code by ",
     "phphelpHeading": "How can I help you?",
+    "phpenter": "Enter",
     "phphelpText": "Araby.AI can serve as a valuable aid for PHP developers, offering support in coding, code analysis, debugging, documentation generation, and more, ultimately enhancing the efficiency and quality of PHP development projects.",
     "phpbullet1": "Code Autocompletion",
     "phpbullet2": "Code Analysis",
@@ -276,11 +283,12 @@
     "phpbullet10": "Testing Automation"
   },
   "Dart": {
-    "dartimageText": "Powerful for {developers} Dart language by",
+    "dartimageText": "Powerful for developers Dart language by",
     "darticonText": "Dart is a programming language developed by Google. It is an object-oriented, class-based language that is designed for building scalable and high-performance applications. Here are some key features and aspects of Dart programming:",
     "dartheading": " How to Generate Dart Code by ",
     "darthelpHeading": "How can I help you?",
     "darthelpText": "Araby.AI can be a powerful assistant for Dart and Flutter developers, offering support in coding, analysis, debugging, documentation generation, and more, ultimately enhancing productivity and the quality of mobile and web application development.",
+    "dartenter": "Enter",
     "dartbullet1": "Code Autocompletion",
     "dartbullet2": "Code Analysis",
     "dartbullet3": "Code Generation",
@@ -293,11 +301,12 @@
     "dartbullet10": "Testing Automation"
   },
   "Python": {
-    "pythonimageText": "Powerful for {developers} Python language by  ",
+    "pythonimageText": "Powerful for developers Python language by  ",
     "pythoniconText": "Python has a vast ecosystem of third-party libraries and frameworks, such as Django, NumPy, Pandas, TensorFlow, and Flask, which extend its capabilities and make development faster. ",
     "pythonheading": "How to Generate Python Code by",
     "pythonhelpHeading": "How can I help you?",
-    "darthelpText": "Araby.AI can streamline various aspects of Python programming, from code generation and autocompletion to bug detection and code optimization. These AI-driven tools and techniques aim to make the development process more efficient, reduce errors, and enhance the overall quality of Python code.",
+    "pythonenter": "Enter",
+    "pythonhelpText": "Araby.AI can streamline various aspects of Python programming, from code generation and autocompletion to bug detection and code optimization. These AI-driven tools and techniques aim to make the development process more efficient, reduce errors, and enhance the overall quality of Python code.",
     "pythonbullet1": "Code Autocompletion",
     "pythonbullet2": "Code Refactoring",
     "pythonbullet3": "Bug Detection",
