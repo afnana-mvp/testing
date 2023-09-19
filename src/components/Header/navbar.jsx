@@ -17,6 +17,7 @@ import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const clickOutsideRef = useRef();
+  console.log(clickOutsideRef);
   const t = useTranslations("Header");
   const pathname = usePathname();
   const locale = useLocale();
@@ -26,6 +27,10 @@ const Navbar = () => {
   const [showMobile, setShowMobile] = useState(false);
 
   useEffect(() => {
+    if (window.innerWidth <= 768) {
+      return;
+    }
+
     const handleClickOutside = (event) => {
       if (clickOutsideRef.current && !clickOutsideRef.current.contains(event.target)) {
         setShowMenu(false);
@@ -176,7 +181,7 @@ const Navbar = () => {
                   {t("Business")}
                 </Link>
               </li>
-              <li className="lg:hover:text-[#026fad]" onClick={() => setShowMenu(!showMenu)} >
+              <li className="lg:hover:text-[#026fad]" onClick={() => setShowMenu(!showMenu)}>
                 <button className="flex justify-between gap-2 items-center">
                   {t("Features")} <ChevronDown />
                 </button>
