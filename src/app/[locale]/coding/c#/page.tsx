@@ -4,7 +4,6 @@ import Image from "next/image";
 import cSharpImage from "~/coding/csharp_tool/csharp_main.png";
 
 import cSharpIcon from "~/coding/csharp_tool/csharp_icon.png";
-import pythonHelp from "~/coding/python_tool/python_help.png";
 import cSharpCode from "~/coding/csharp_tool/csharp_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
@@ -49,7 +48,6 @@ const CSharpCoding = () => {
           capabilities can help developers write cleaner, more efficient, and
           more secure C# code.
         </p>
-        <Image className="" src={pythonHelp} alt="python image" height={200} />
       </div>
       <div className=" flex items-center justify-center relative w-full h-full ">
         <div className="absolute  w-full  mt-12">

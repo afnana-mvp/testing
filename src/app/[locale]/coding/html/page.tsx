@@ -5,7 +5,6 @@ import cSharpImage from "~/coding/csharp_tool/csharp_main.png";
 import { useTranslations } from "next-intl";
 
 import htmlIcon from "~/coding/html/html_icon.png";
-import pythonHelp from "~/coding/python_tool/python_help.png";
 import htmlCode from "~/coding/html/html_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";

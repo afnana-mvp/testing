@@ -3,7 +3,6 @@ import Image from "next/image";
 import javaImage from "~/coding/java_tool/java_main.png";
 
 import cplusIcon from "~/coding/cplus_tool/c++_icon.png";
-import pythonHelp from "~/coding/python_tool/python_help.png";
 import cplusCode from "~/coding/cplus_tool/c++_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
@@ -45,7 +44,6 @@ const CPlusCoding = () => {
           efficiency, and enhancing the overall performance and security of C++
           applications.
         </p>
-        <Image className="" src={pythonHelp} alt="python image" height={200} />
       </div>
       <div className=" flex items-center justify-center relative w-full h-full ">
         <div className="absolute  w-full  mt-12">
