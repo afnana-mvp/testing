@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.yourwebsite.com/app/locale</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/c</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/cplus</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/csharp</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/java</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/python</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/javascript</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/html</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/css</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/php</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/coding/ruby</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/art</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/audio</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/enhance</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/redesign</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  
+    <url>
+        <loc>https://www.yourwebsite.com/app/media/remove</loc>
+        <lastmod>2023-09-18T15:27:18.176Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+  </urlset>

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import logo from "../../../public/brand.png";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import LLink from "next-intl/link";
 import saudi from "../../../public/languages/saudi.png";
@@ -16,6 +16,7 @@ import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 
 const Navbar = () => {
+  const clickOutsideRef = useRef();
   const t = useTranslations("Header");
   const pathname = usePathname();
   const locale = useLocale();
@@ -23,6 +24,20 @@ const Navbar = () => {
   const [showCoding, setShowCoding] = useState(false);
   const [showMedia, setShowMedia] = useState(false);
   const [showMobile, setShowMobile] = useState(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (clickOutsideRef.current && !clickOutsideRef.current.contains(event.target)) {
+        setShowMenu(false);
+        setShowCoding(false);
+        setShowMedia(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [clickOutsideRef]);
 
   const media = [
     {
@@ -62,7 +77,15 @@ const Navbar = () => {
     },
     {
       name: "c++",
-      link: "/coding/c++",
+      link: "/coding/cplus",
+    },
+    {
+      name: "c#",
+      link: "/coding/csharp",
+    },
+    {
+      name: "css",
+      link: "/coding/css",
     },
     {
       name: "java",
@@ -153,10 +176,74 @@ const Navbar = () => {
                   {t("Business")}
                 </Link>
               </li>
-              <li className="hover:text-[#026fad]">
-                <Link href="/business" className="flex justify-between gap-2 items-center">
-                  {t("Features")}
-                </Link>
+              <li className="lg:hover:text-[#026fad]" onClick={() => setShowMenu(!showMenu)} >
+                <button className="flex justify-between gap-2 items-center">
+                  {t("Features")} <ChevronDown />
+                </button>
+              </li>
+              <li>
+                {showMenu && (
+                  <ul className="relative ">
+                    <li
+                      className="text-white flex justify-between gap-2 cursor-pointer px-5 py-2 items-center hover:text-[#026fad]"
+                      onClick={() => {
+                        setShowCoding(!showCoding);
+                        setShowMedia(false);
+                      }}
+                    >
+                      <button>{t("Coding")}</button>
+                      <ChevronDown className="w-5" />
+                    </li>
+                    <li>
+                      {showCoding && (
+                        <ul className="text-white text-center rounded-md">
+                          {codingData.map((item, index) => (
+                            <Link
+                              href={item.link}
+                              key={index}
+                              onClick={() => {
+                                setShowMenu(false);
+                                setShowCoding(false);
+                                setShowMobile(false);
+                              }}
+                            >
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
+                            </Link>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                    <li
+                      className="text-white flex justify-between gap-2 cursor-pointer items-center px-5 py-2  hover:text-[#026fad]"
+                      onClick={() => {
+                        setShowMedia(!showMedia);
+                        setShowCoding(false);
+                      }}
+                    >
+                      <button>{t("Media")}</button>
+                      <ChevronDown className="w-5 ml-auto rtl:mr-auto" />
+                    </li>
+                    <li>
+                      {showMedia && (
+                        <ul className="text-center">
+                          {media.map((item, index) => (
+                            <Link
+                              href={item.link}
+                              key={index}
+                              onClick={() => {
+                                setShowMenu(false);
+                                setShowMedia(false);
+                                setShowMobile(false);
+                              }}
+                            >
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
+                            </Link>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  </ul>
+                )}
               </li>
             </ul>
           )}
@@ -186,13 +273,20 @@ const Navbar = () => {
                 {t("Business")}
               </Link>
             </li>
-            <li className="hover:text-[#026fad]">
-              <button onClick={() => setShowMenu(!showMenu)} className="flex justify-between gap-2 items-center">
+            <li className="hover:text-[#026fad]" ref={clickOutsideRef}>
+              <button
+                onClick={() => {
+                  setShowMedia(false);
+                  setShowCoding(false);
+                  setShowMenu(!showMenu);
+                }}
+                className="flex justify-between gap-2 items-center"
+              >
                 {t("Features")}
                 <ChevronDown className="w-5" />
               </button>
               {showMenu && (
-                <ul className="absolute bg-white rounded-md w-40">
+                <ul className="absolute bg-white top-16 rounded-md w-40">
                   <li
                     className="text-black flex justify-between gap-2 cursor-pointer px-5 py-2 items-center hover:text-[#026fad]"
                     onClick={() => {
