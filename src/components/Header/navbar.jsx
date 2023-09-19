@@ -176,8 +176,8 @@ const Navbar = () => {
                   {t("Business")}
                 </Link>
               </li>
-              <li className="hover:text-[#026fad]">
-                <button className="flex justify-between gap-2 items-center" onClick={() => setShowMenu(!showMenu)}>
+              <li className="lg:hover:text-[#026fad]" onClick={() => setShowMenu(!showMenu)} >
+                <button className="flex justify-between gap-2 items-center">
                   {t("Features")} <ChevronDown />
                 </button>
               </li>
