@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+
 import phpIcon from "~/coding/php/php_icon.png";
+
 import phpCode from "~/coding/php/php_code.png";
 import pythonSide from "~/coding/python_tool/python_side.png";
 import pythonBackground from "~/coding/python_tool/python_background.png";
