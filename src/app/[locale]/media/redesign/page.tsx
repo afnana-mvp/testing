@@ -35,7 +35,7 @@ const Redesign = () => {
               <div className="text-[10px] md:text-xl font-light rtl:text-right">
                 {t("redesignheaderTextSupport")}
               </div>
-              <button className="bg-[#1E7BF1] px-[10px] py-[5px] md:px-[25px] md:py-[15px] flex gap-2 rounded-lg text-[8px] md:text-[20px] text-left">
+              <button className="bg-[#1E7BF1] px-[10px] py-[5px] md:px-[25px] md:py-[15px] flex gap-2 rounded-lg text-[8px] md:text-[20px] text-left rtl:mb-[20px]">
                 {t("try")} Araby.Ai{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
