@@ -318,6 +318,17 @@
     "pythonbullet9": "Natural Language Interfaces",
     "pythonbullet10": "Code Review Assistance"
   },
+  "Facebook": {
+    "fbheading1part1": "FACEBOOK Ad ",
+    "fbheading1part2": "that Gets Results!",
+    "fbpara1": "With ArabyAi Facebook ad generator, you can create high-converting Facebook ad copy that engages your audience in seconds.",
+    "fbtrybutton": "Try now Free",
+    "fbmainheading": "Generate conversion-worthy Facebook Ad!",
+    "fbheading2": "Creating a Facebook ad has never been easier with Araby.Ai!",
+    "fbpara2": "Our user-friendly interface and AI-powered tools simplify the process, allowing you to effortlessly design captivating ads in Arabic. From generating engaging copy to selecting eye-catching visuals, Araby.ai takes the guesswork out of ad creation. Experience the convenience and efficiency of using Araby.ai to create Facebook ads that truly stand out and drive results.",
+    "fbheading3part1": "With just a few clicks, ",
+    "fbheading3part2": "and your Ad will be ready!"
+  },
   "Header": {
     "Home": "Home",
     "About": "About",
@@ -333,6 +344,7 @@
     "redesign": "redesign",
     "removebg": "remove background",
     "replacebg": "replace background",
+    "removevideo": "remove video background",
     "c": "c",
     "c++": "c++",
     "c#": "c#",
