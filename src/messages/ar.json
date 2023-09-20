@@ -371,6 +371,46 @@
     "tiktokheading3": "أطلق العنان لقدراتك الإبداعية على تيك توك مع Araby.ai!",
     "tiktokpara3": "منصتنا المبتكرة وميزاتنا المدعومة بالذكاء الاصطناعي تجعل من السهل إنشاء أفكار فيديو جذابة باللغة العربية. من التحديات الشائعة إلى المفاهيم واسعة الانتشار، يوفر Araby.ai إلهامًا لا نهاية له لمحتوى TikTok الخاص بك. استمتع بتجربة سهولة وإثارة استخدام Araby.ai لإنشاء مقاطع فيديو TikTok مميزة وترفيهية لجمهورك وتحدث تأثيرًا دائمًا."
   },
+  "Instagram": {
+    "instaheading1support": "اجذب الانتباه وابدأ المحادثة مع مولد التسميات التوضيحية من ArabyAi!",
+    "instaheading1part1": "خذ مشاركتك ",
+    "instaheading1part2": "إلى آفاق جديدة!",
+    "instaheading1part3": "",
+    "instafreebutton": "جرب الان",
+    "instapara1": "على استعداد لتدفق العصائر الإبداعية الخاصة بك؟  أصبح العثور على التعليق المثالي على Instagram أمرًا سهلاً مع Araby.ai!",
+    "instapara2": "منصتنا سهلة الاستخدام وأدواتنا المدعومة بالذكاء الاصطناعي تجعل من السهل توليد أفكار توضيحية إبداعية وجذابة باللغة العربية. من الاقتباسات الملهمة إلى العبارات الذكية، يوفر Araby.ai إلهامًا لا نهاية له لمشاركاتك على Instagram. استمتع بالبساطة والكفاءة في استخدام Araby.ai لإنشاء تعليقات على Instagram تجذب انتباه جمهورك، وتعزز المحتوى المرئي الخاص بك، وتجعل منشوراتك تتألق",
+    "instahashtag": "#AiInstagramContentGen"
+  },
+  "Blog": {
+    "blogheading1support": "هل تشعر بأنك عالق ومستنزف من طرح الأفكار الجديدة لمدونتك؟ جرب منشئ موضوع المدونة!",
+    "blogheading1part1": "احصل على الإلهام ",
+    "blogheading1part2": "لكتابة مشاركة",
+    "blogheading1part3": "مدونتك القادمة!",
+    "blogfreebutton": "Get Started",
+    "blogmainheading": "قل وداعًا لمعوقات الكاتب ودع منشئ موضوعات المدونة هو مصدرك المفضل للحصول على إلهام جديد.",
+    "blogheading1": "انشر إبداعك بأفكار مدونات رائعة عبر أي مجال متخصص!",
+    "blogpara1": "سواء كنت تعمل في أي صناعة أو لديك مجال محدد في ذهنك، فإن منشئ أفكار المحتوى المجاني الخاص بنا موجود هنا لتزويدك بأفكار مدونة فريدة وجذابة. قل وداعًا للخوف من نفاد إلهام المحتوى حيث أن منشئ أفكار مدونة ArabyAi في خدمتك، وهو جاهز لإنشاء موضوعات جديدة وجذابة في ثوانٍ. بغض النظر عن مجال عملك أو مجال تخصصك، اسمح لمولدنا بتعزيز إبداعك والحفاظ على مدونتك مزدهرة بمحتوى مثير."
+  },
+  "Emails": {
+    "emailheading1part1": "مولد البريد الإلكتروني - قم بصياغة نسخة بريد",
+    "emailheading1part2": "إلكتروني جذابة يتم تحويلها على الفور!",
+    "emailfreebutton": "البدء",
+    "emailmainheading": "تعزيز حملاتك عبر البريد الإلكتروني باستخدام الذكاء الاصطناعي:   أداة إنشاء البريد الإلكتروني النهائية لرسائل أكثر ذكاءً وجاذبية وتعزيزًا للتحويل!",
+    "email1list1": "تحسين البريد الإلكتروني",
+    "email1list2": "البريد الإلكتروني البارد",
+    "email1list3": "موضوع البريد الإلكتروني",
+    "email1list4": "البريد الإلكتروني معلما",
+    "emailpara1": "   ",
+    "emailpara2": "From crafting professional and persuasive language to ensuring clear and concise communication, Araby.ai helps you save time and effort while maintaining a polished and impactful email style. Whether it's crafting business proposals, client communications, or internal memos, let Araby.ai be your trusted assistant for efficient and effective email writing.",
+    "emailheading2": "Araby.ai is your go-to tool for anything you need! ",
+    "email2list1": "Special Events Card",
+    "email2list2": "Promotional Email",
+    "email2list3": "DM",
+    "email2list4": "Notification",
+    "email2list5": "SMS",
+    "email2list6": "WhatsApp Message",
+    "emailpara3": " With Araby.ai, you can effortlessly craft personalized and impactful content for each occasion. From heartfelt messages for special events to persuasive promotional emails, Araby.ai helps you create engaging and effective communication that resonates with your audience. Experience the convenience and efficiency of using Araby.ai to elevate your writing for different platforms and achieve your communication goals. #ArabyAI #PowerfulWritingAssistant"
+  },
   "Header": {
     "Home": "الصفحة الرئيسية",
     "About": "حول",
