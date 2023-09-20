@@ -5,6 +5,8 @@ import mastercard from "~/Footer/card.png";
 import paypal from "~/Footer/paypal.png";
 import apple from "~/Footer/apple-logo.png";
 import playstore from "~/Footer/playstore.png";
+import { Facebook, Linkedin, Instagram } from "lucide-react";
+import { Icons } from "../Icons/Icons";
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,62 +14,70 @@ const Footer = () => {
     <footer className="p-10 relative overflow-hidden">
       <div className="w-80 h-80 bg-[#0038FF] opacity-[0.2] md:opacity-[0.4] absolute blur-[120px] -top-10 -left-10" />
       <div className="w-80 h-80 bg-[#8f00ff5c] opacity-[0.5] absolute blur-3xl -top-10 right-0" />
-      <section className="text-sm md:text-base container grid grid-cols-2 md:grid-cols-4 gap-10 mx-auto z-10 relative py-5">
+      <section className="text-sm container grid grid-cols-2 md:grid-cols-4 gap-10 mx-auto z-10 relative py-5">
         <ul className=" grid gap-y-3">
-          <h3 className="text-xl font-semibold">Company</h3>
+          <h3 className="text-xl font-semibold text-[#e6e6e6]">Company</h3>
           <Link href="">
-            <li className=" hover:text-blue">About</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">About</li>
           </Link>
           <Link href="">
-            <li className=" hover:text-blue">Blog</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">Blog</li>
           </Link>
           <Link href="">
-            <li className=" hover:text-blue">Careers</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">Careers</li>
           </Link>
           <Link href="">
-            <li className=" hover:text-blue">Contact</li>
-          </Link>
-        </ul>
-        <ul className="grid gap-y-3">
-          <h3 className="text-xl font-semibold">Features</h3>
-          <Link href="">
-            <li className=" hover:text-blue">Text Generation</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue">Image Generation</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue">Video Generation</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue">Audio Generation</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">Contact</li>
           </Link>
         </ul>
         <ul className="grid gap-y-3">
-          <h3 className="text-xl font-semibold">Support</h3>
+          <h3 className="text-xl font-semibold text-[#e6e6e6]">Features</h3>
           <Link href="">
-            <li className=" hover:text-blue">Help Center</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">Text Generation</li>
           </Link>
           <Link href="">
-            <li className=" hover:text-blue">Terms of Service</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">Image Generation</li>
           </Link>
           <Link href="">
-            <li className=" hover:text-blue">Privacy Policy</li>
+            <li className=" hover:text-blue text-[#c8c5c5]">Video Generation</li>
+          </Link>
+          <Link href="">
+            <li className=" hover:text-blue text-[#c8c5c5]">Audio Generation</li>
           </Link>
         </ul>
         <ul className="grid gap-y-3">
-          <h3 className="text-xl font-semibold">Follow Us</h3>
+          <h3 className="text-xl font-semibold text-[#e6e6e6]">Support</h3>
+          <Link href="">
+            <li className=" hover:text-blue text-[#c8c5c5]">Help Center</li>
+          </Link>
+          <Link href="">
+            <li className=" hover:text-blue text-[#c8c5c5]">Terms of Service</li>
+          </Link>
+          <Link href="">
+            <li className=" hover:text-blue text-[#c8c5c5]">Privacy Policy</li>
+          </Link>
+        </ul>
+        <ul className="grid gap-y-3">
+          <h3 className="text-xl font-semibold text-[#e6e6e6]">Follow Us</h3>
           <Link href="https://www.facebook.com/">
-            <li className=" hover:text-blue">Facebook</li>
+            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+              <Facebook /> Facebook
+            </li>
           </Link>
           <Link href="https://www.twitter.com/">
-            <li className=" hover:text-blue">Twitter</li>
+            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+              <Icons.Twitter fill="white" className="w-6 h-5 hover:text-blue" /> Twitter
+            </li>
           </Link>
           <Link href="https://www.instagram.com/">
-            <li className=" hover:text-blue">Instagram</li>
+            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+              <Instagram /> Instagram
+            </li>
           </Link>
           <Link href="https://www.linkedin.com/">
-            <li className=" hover:text-blue">LinkedIn</li>
+            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+              <Linkedin /> LinkedIn
+            </li>
           </Link>
         </ul>
       </section>

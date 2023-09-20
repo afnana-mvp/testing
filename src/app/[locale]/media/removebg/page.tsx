@@ -22,7 +22,7 @@ const RemoveBg = () => {
           <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] text-center ">
             {t("rmbgheaderText")} <span className="araby_ai">ArabyAi</span>
           </h1>
-          <div className="text-[12px] md:text-[20px] font-light rtl:text-right ">
+          <div className="text-[12px] md:text-[20px] font-light text-center">
             {t("rmbgheaderTextSupport")}
           </div>
         </div>
@@ -68,7 +68,7 @@ const RemoveBg = () => {
               {t("rmbgheading1blueText")}
             </span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light rtl:text-right">
+          <div className="text-[12px] md:text-xl font-light md:rtl:text-right">
             {t("rmbgpara1")}
           </div>
         </div>
@@ -82,7 +82,7 @@ const RemoveBg = () => {
               {t("rmbgheading2blueText")}
             </span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light rtl:text-right">
+          <div className="text-[12px] md:text-xl font-light md:rtl:text-right">
             {t("rmbgpara2")}
           </div>
         </div>
@@ -104,14 +104,14 @@ const RemoveBg = () => {
             alt="python image"
             className="flex-1 h-0 w-0 md:h-[500px] md:w-auto"
           />
-          <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] rtl:text-right">
+          <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] md:rtl:text-right">
             {t("rmbgheading3")}
             <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
               {" "}
               {t("rmbgheading3blueText")}
             </span>
           </h1>
-          <div className="text-[12px] md:text-xl font-light rtl:text-right">
+          <div className="text-[12px] md:text-xl font-light md:rtl:text-right">
             {t("rmbgpara3")}
           </div>
         </div>

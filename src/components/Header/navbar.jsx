@@ -51,8 +51,8 @@ const Navbar = () => {
 
   const media = [
     {
-      name: "art",
-      link: "/media/art",
+      name: "scribble",
+      link: "/media/scribble",
     },
     {
       name: "audio",

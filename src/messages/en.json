@@ -121,10 +121,11 @@
   },
 
   "CCoding": {
-    "cimageText": "Powerful for  developers  C language by   ",
+    "cimageText": "Powerful for [ developers ] C",
+    "language by":"Language by",
     "ciconText": "Certainly! Here is some information about the C programming language:C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. It is a low-level language that provides a high degree of control over hardware and memory, making it suitable for system programming and developing efficient applications.",
     "cheading": " How to Generate C Code by",
-    "chelpheading": "How can I help you?",
+    "chelpheading": "How can I help you?",  
     "center": " Enter",
     "chelpText": " Araby.AI can be a valuable assistant for C programmers by automating repetitive tasks, enhancing code quality, and providing intelligent suggestions and insights throughout the software development process. ",
     "cbullet1": "Code Generation and Autocompletion",
@@ -139,7 +140,8 @@
     "cbullet10": "Personalized Learning"
   },
   "Javascript": {
-    "jsimageText": "Powerful for developers Java Script Language by",
+    "jsimageText": "Powerful for [ developers ] Java Script",
+    "Language by": "Language by",
     "jsiconText": "JavaScript is a programming language commonly used for creating interactive and dynamic web content. It is primarily used for client-side scripting, allowing developers to add functionality to websites and web applications. JavaScript can also be used for server-side development with the help of frameworks like Node.js. It is a versatile language that is widely supported by web browsers and has a large ecosystem of libraries and frameworks.",
     "jsheading": " How to Generate Java Script Code by",
     "jshelpHeading": "How can I help you?",
@@ -157,7 +159,8 @@
     "jsbullet10": "Accessibility Tools"
   },
   "Java": {
-    "javaimageText": "Powerful for developers Java Language by",
+    "javaimageText": "Powerful for [ developers ] Java",
+    "language by": "Language by",
     "javaiconText": "JavaScript is a programming language commonly used for creating interactive and dynamic web content. It is primarily used for client-side scripting, allowing developers to add functionality to websites and web applications. JavaScript can also be used for server-side development with the help of frameworks like Node.js. It is a versatile language that is widely supported by web browsers and has a large ecosystem of libraries and frameworks.",
     "javaheading": " How to Generate Java Script Code by ",
     "javahelpHeading": "How can I help you?",
@@ -175,7 +178,8 @@
     "javabullet10": "Accessibility Tools"
   },
   "CPlus": {
-    "cplusimageText": "Powerful for developers C++language by",
+    "cplusimageText": "Powerful for [ developers ] C++",
+    "language by": "Language by",
     "cplusiconText": "C++ is a high-level programming language that is widely used for developing a variety of applications. It is an extension of the C programming language and supports object-oriented programming. C++ is known for its efficiency, performance, and flexibility, making it suitable for a wide range of applications, including system software, game development, and embedded systems.",
     "cplusheading": " How to Generate C++ Code by ",
     "cplushelpHeading": "How can I help you?",
@@ -193,7 +197,8 @@
     "cplusbullet10": "Performance Optimization"
   },
   "CSharp": {
-    "csharpimageText": "Powerful for developers C# language by",
+    "csharpimageText": "Powerful for [ developers ] C#",
+    "language by": "Language by",
     "csharpiconText": "C# (pronounced \"C sharp\") is a modern, general-purpose programming language developed by Microsoft. It was first introduced in 2000 as part of the .NET framework and has since become one of the most widely used programming languages.",
     "csharpheading": " How to Generate C# Code by ",
     "csharphelpHeading": "How can I help you?",
@@ -211,7 +216,8 @@
     "csharpbullet10": "Personalized Learning"
   },
   "Html": {
-    "htmlimageText": "Powerful for developers HTML language by",
+    "htmlimageText": "Powerful for [ developers ] HTML",
+    "language by":"Language by",
     "htmliconText": "HTML stands for Hypertext Markup Language. It is the standard markup language used for creating web pages and applications on the internet. HTML uses tags to structure the content and define the elements on a webpage, such as headings, paragraphs, images, links, and more. It is the backbone of every web page and is essential for creating and displaying content on the internet.",
     "htmlheading": " How to Generate Html Code by ",
     "htmlhelpHeading": "How can I help you?",
@@ -229,7 +235,8 @@
     "htmlbullet10": "Natural Language Interfaces"
   },
   "Css": {
-    "cssimageText": "Powerful for developers CSS language by",
+    "cssimageText": "Powerful for [ developers ] CSS",
+    "language by":"Language by",
     "cssiconText": "CSS stands for Cascading Style Sheets. It is a programming language used for styling web pages and defining the layout, colors, fonts, and other visual aspects of a website. CSS allows web developers to separate the design and presentation of a website from its structure and content. It is widely used in conjunction with HTML and JavaScript to create visually appealing and responsive web pages.",
     "cssheading": " How to Generate Css Code by ",
     "csshelpHeading": "How can I help you?",
@@ -247,7 +254,8 @@
     "cssbullet10": "Real-time Previews"
   },
   "Ruby": {
-    "rubyimageText": "Powerful for developers Ruby language by",
+    "rubyimageText": "Powerful for [ developers ] Ruby",
+    "language by":"Language by",
     "rubyiconText": "Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. It was created in the mid-1990s by Yukihiro Matsumoto, also known as Matz. Here are some key points about Ruby:",
     "rubyheading": " How to Generate Ruby Code by ",
     "rubyhelpHeading": "How can I help you?",
@@ -265,7 +273,8 @@
     "rubybullet10": "Testing Automation"
   },
   "Php": {
-    "phpimageText": "Powerful for developers Php language by",
+    "phpimageText": "Powerful for [ developers ] Php",
+    "language by":"Language by",
     "phpiconText": "PHP (Hypertext Preprocessor) is a popular server-side scripting language used for web development. It is primarily used for creating dynamic web pages and web applications. Here are some key points about PHP",
     "phpheading": " How to Generate Php Code by ",
     "phphelpHeading": "How can I help you?",
@@ -283,7 +292,8 @@
     "phpbullet10": "Testing Automation"
   },
   "Dart": {
-    "dartimageText": "Powerful for developers Dart language by",
+    "dartimageText": "Powerful for [ developers ] Dart",
+    "language by":"Language by",
     "darticonText": "Dart is a programming language developed by Google. It is an object-oriented, class-based language that is designed for building scalable and high-performance applications. Here are some key features and aspects of Dart programming:",
     "dartheading": " How to Generate Dart Code by ",
     "darthelpHeading": "How can I help you?",
@@ -301,7 +311,8 @@
     "dartbullet10": "Testing Automation"
   },
   "Python": {
-    "pythonimageText": "Powerful for developers Python language by  ",
+    "pythonimageText": "Powerful for [ developers ] Python",
+    "language by": "language by",
     "pythoniconText": "Python has a vast ecosystem of third-party libraries and frameworks, such as Django, NumPy, Pandas, TensorFlow, and Flask, which extend its capabilities and make development faster. ",
     "pythonheading": "How to Generate Python Code by",
     "pythonhelpHeading": "How can I help you?",
@@ -422,7 +433,7 @@
     "Business": "Business",
     "Pricing": "Pricing",
     "Features": "Features",
-    "art": "art",
+    "scribble": "scribble",
     "audio": "audio",
     "create": "create",
     "enhance": "enhance",
