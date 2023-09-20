@@ -12,29 +12,29 @@ const Tiktok = () => {
   return (
     <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left ">
       <div className="bg-[url('../../public/writing/tiktok/bckgrnd1.png')] w-full bg-cover bg-center	bg-no-repeat flex items-center justify-center h-full  pb-10">
-        <div className="container flex items-center justify-center flex-col gap-10 ">
-          <h1 className="font-semibold text-[30px] md:text-[40px] mt-10 container">
-            {t("tiktokheading1supporttop")}{" "}
-          </h1>
-          <div className="mt-20">
-            <h1 className="font-semibold text-[30px] md:text-[40px]">
+        <div className="container flex items-center justify-center flex-col gap-5 md:gap-10 w-5/6 ">
+          <div className="font-semibold text-[20px] md:text-[40px] mt-[100px] md:mt-[200px] container flex items-center flex-col">
+            <div>{t("tiktokheading1supporttoppart1")}</div>
+            <div>{t("tiktokheading1supporttoppart2")}</div>
+          </div>
+          <div className="">
+            <h1 className="font-semibold text-[40px] md:text-[100px] md:ml-[200px]">
               {t("tiktokheading1part1")}{" "}
             </h1>
-            <h1 className="font-semibold text-[30px] md:text-[100px] md:ml-[200px] leading-none">
+            <h1 className="font-semibold text-[40px] md:text-[100px]  leading-none">
               {t("tiktokheading1part2")}
             </h1>
-            <h1 className="font-semibold text-[30px] md:text-[40px] ">
+            <h1 className="font-semibold text-[40px] md:text-[100px] md:ml-[200px] ">
               {t("tiktokheading1part3")}
             </h1>
           </div>
           <div className=" flex items-center justify-center w-5/6  flex-row-reverse">
-            <Image src={image1} alt="art image" className="w-1/3" />
-            <div className="flex items-center md:items-start justify-center flex-col  md:ml-10 gap-5  ">
+            <div className="flex items-center justify-between flex-row w-full ">
               <p className="  text-[12px] md:text-[20px] lg:w-2/3 rtl:text-right">
-                {t("tiktokpara1")}
+                {t("tiktokheading1supportbottom")}
               </p>
               <button className="bg-white rounded-xl px-3 py-3 md:px-10 md:py-5 text-black font-normal text-[12px] md:text-[20px] ">
-                {t("tiktoktrybutton")}
+                {t("tiktokfreebutton")}
               </button>
             </div>
           </div>
