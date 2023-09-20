@@ -5,6 +5,8 @@ import mastercard from "~/Footer/card.png";
 import paypal from "~/Footer/paypal.png";
 import apple from "~/Footer/apple-logo.png";
 import playstore from "~/Footer/playstore.png";
+import { Facebook, Linkedin, Instagram } from "lucide-react";
+import { Icons } from "../Icons/Icons";
 import Link from "next/link";
 
 const Footer = () => {
@@ -58,16 +60,24 @@ const Footer = () => {
         <ul className="grid gap-y-3">
           <h3 className="text-xl font-semibold">Follow Us</h3>
           <Link href="https://www.facebook.com/">
-            <li className=" hover:text-blue">Facebook</li>
+            <li className=" hover:text-blue flex items-center gap-3">
+              <Facebook /> Facebook
+            </li>
           </Link>
           <Link href="https://www.twitter.com/">
-            <li className=" hover:text-blue">Twitter</li>
+            <li className=" hover:text-blue flex items-center gap-3">
+              <Icons.Twitter fill="white" className="w-6 h-5 hover:text-blue" /> Twitter
+            </li>
           </Link>
           <Link href="https://www.instagram.com/">
-            <li className=" hover:text-blue">Instagram</li>
+            <li className=" hover:text-blue flex items-center gap-3">
+              <Instagram /> Instagram
+            </li>
           </Link>
           <Link href="https://www.linkedin.com/">
-            <li className=" hover:text-blue">LinkedIn</li>
+            <li className=" hover:text-blue flex items-center gap-3">
+              <Linkedin /> LinkedIn
+            </li>
           </Link>
         </ul>
       </section>
