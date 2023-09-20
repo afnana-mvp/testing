@@ -16,7 +16,7 @@ const RemoveVideo = () => {
     <div className=" overflow-hidden font-poppins text-center flex items-center justify-center flex-col bg-background_color -20">
       <div className="flex items-start justify-center  bg-[url('../../public/media_section/removevideo/header.png')]  bg-cover bg-center	bg-no-repeat w-full">
         <div className="flex-col flex items-center justify-center  gap-5 md:gap-10 container max-w-screen-lg w-5/6 py-20">
-          <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
+          <h1 className="text-white text-xl md:text-[30px] leading-[20px] md:leading-[40px] font-bold">
             {t("rmvideoheaderText")}{" "}
           </h1>
           <div className="text-[12px] md:text-xl font-light text-center">
@@ -29,12 +29,12 @@ const RemoveVideo = () => {
           />
         </div>
       </div>
-      <div className="flex items-start justify-center bg-[url('../../public/media_section/removevideo/header2.png')]  bg-cover bg-center	bg-no-repeat py-20 w-full ">
-        <div className="flex-col flex items-center justify-center   gap-20 container max-w-screen-lg w-5/6">
+      <div className="flex items-start justify-center bg-[url('../../public/media_section/removevideo/header2.png')]  bg-cover bg-center	bg-no-repeat py-10 md:py-20 w-full ">
+        <div className="flex-col flex items-center justify-center gap-10 md:gap-20 container max-w-screen-lg w-5/6">
           <h1 className="text-white text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold container max-w-screen-lg">
             {t("rmvideoheading1")}
           </h1>
-          <div className="  flex items-center justify-center flex-col md:flex-row w-5/6 gap-20">
+          <div className="  flex items-center justify-center flex-col md:flex-row w-5/6 gap-10 md:gap-20">
             <div className="flex-col flex items-center justify-center bg-white rounded-xl w-full  gap-5 md:gap-10  p-4 md:p-10">
               <h1 className=" text-sm md:text-[20px] leading-[20px] md:leading-[40px] font-semibold  text-black">
                 {t("rmvideopopupheader")}
@@ -54,11 +54,11 @@ const RemoveVideo = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-start justify-center py-20 bg-white w-full ">
+      <div className="flex items-start justify-center py-10 md:py-20 bg-white w-full ">
         <div className=" container max-w-screen-lg w-5/6 flex items-center justify-center flex-col  gap-20">
           <div className="flex items-center justify-center flex-col md:flex-row gap-20 md:text-left">
             <div className="flex items-center justify-center flex-col text-black gap-2">
-              <h1 className=" text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold container max-w-screen-lg">
+              <h1 className=" text-lg md:text-[30px] leading-[20px] md:leading-[40px] font-bold container max-w-screen-lg">
                 {t("rmvideoheading2")}
                 <span className="araby_ai">ArabyAi</span>
               </h1>
@@ -72,7 +72,7 @@ const RemoveVideo = () => {
             <Image src={image2} alt="python image" className="  " />
 
             <div className="flex items-center justify-center flex-col text-black gap-2">
-              <h1 className=" text-sm md:text-[30px] leading-[20px] md:leading-[40px] font-bold container max-w-screen-lg">
+              <h1 className=" text-lg md:text-[30px] leading-[20px] md:leading-[40px] font-bold container max-w-screen-lg">
                 {t("rmvideoheading3")}
                 <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
                   {t("rmvideoheading3blueText")}

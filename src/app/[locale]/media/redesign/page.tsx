@@ -1,9 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
-//media
-import image1 from "~/media_section/redesign/header1.png";
 import header_bottom from "~/media_section/redesign/header_bottom.png";
 import header_side from "~/media_section/redesign/header_side.png";
 import before from "~/media_section/redesign/before.png";
@@ -17,24 +14,16 @@ const Redesign = () => {
 
   return (
     <div className="bg-background_color overflow-hidden font-poppins text-center md:text-left flex items-center justify-center gap-20 flex-col relative">
-      <div
-        className="flex items-end justify-center flex-row container max-w-screen-lg
-      mt-[50px] md:mt-[100px] gap-2 h-full w-5/6 "
-      >
+      <div className="flex items-end justify-center flex-row container max-w-screen-lg mt-[50px] md:mt-[100px] gap-2 h-full w-5/6 ">
         <div className="flex items-center justify-center flex-col-reverse">
-          {" "}
           <Image src={header_bottom} alt="python image" className=" " />
           <div className=" container max-w-screen-lg ">
-            <div className="flex items-start md:items-start  max-w-screen-lg mx-[20px] my-100 flex-col flex-1 gap-[10px] md:gap-[20px] text-left rtl:text-right">
-              <h1 className="text-white text-sm md:text-[30px] font-semibold leading-[20px] md:leading-[40px]">
+            <div className="flex items-start md:items-start mx-[20px] my-100 flex-col flex-1 gap-[10px] md:gap-[20px] text-left rtl:text-right">
+              <h1 className="text-white text-2xl md:text-4xl font-semibold !leading-relaxed">
                 {t("redesignheaderText")}
-                <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">
-                  {t("blueText")}
-                </span>
+                <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">{t("blueText")}</span>
               </h1>
-              <div className="text-[10px] md:text-xl font-light rtl:text-right">
-                {t("redesignheaderTextSupport")}
-              </div>
+              <div className="text-sm md:text-lg  md:!leading-8 font-light rtl:text-right">{t("redesignheaderTextSupport")}</div>
               <button className="bg-[#1E7BF1] px-[10px] py-[5px] md:px-[25px] md:py-[15px] flex gap-2 rounded-lg text-[8px] md:text-[20px] text-left rtl:mb-[20px]">
                 {t("try")} Araby.Ai{" "}
                 <svg
@@ -58,7 +47,6 @@ const Redesign = () => {
           </div>
         </div>
         <div className=" h-[350px] md:h-[650px] lg:h-[750px]">
-          {" "}
           <Image src={header_side} alt="python image" className="h-full" />
         </div>
       </div>
@@ -66,50 +54,36 @@ const Redesign = () => {
       <div className="container">
         <div className="w-[300px] h-[300px] origin-center rounded-lg bg-gradient-to-r from-[#5901b16e] to-[#ff73b66e] blur-2xl mr-0 absolute  top-0"></div>
       </div>
-      <div className="container max-w-screen-lg flex items-center justify-center flex-col text-center mx-auto w-5/6">
-        <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] ">
-          {t("redesignMainHeading")}
-        </h1>
-        <div className="text-[12px] md:text-[20px] rtl:text-right ">
-          {t("redesignMainHeadingsupport")}
-        </div>
+      <div className="container max-w-screen-md flex items-center justify-center flex-col text-center mx-auto w-5/6">
+        <h1 className="text-white text-sm md:text-[30px] font-semibold leading-[20px] md:leading-[40px] ">{t("redesignMainHeading")}</h1>
+        <div className="text-sm md:text-xl my-8 md:rtl:text-right mx-auto">{t("redesignMainHeadingsupport")}</div>
       </div>
 
       <div className=" flex items-center justify-center flex-col  md:bg-[url('../../public/media_section/redesign/frame.png')] bg-image bg-no-repeat bg-bottom gap-20 pb-20 mx-auto w-full">
         <div className="flex items-center justify-center flex-col md:flex-row">
           <div className="flex items-center justify-center flex-col">
-            <button className="bg-gradient-to-b from-[#0579C6] to-[#5901B1] rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">
-              {t("before")}
-            </button>
+            <button className="bg-gradient-to-b from-[#0579C6] to-[#5901B1] rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-white">{t("before")}</button>
             <Image src={before} alt="python image" className="w-5/6" />
           </div>
           <div className="flex items-center justify-center flex-col">
-            <button className="bg-gradient-to-b from-[#0579C6] to-[#5901B1] rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-black">
-              {t("after")}
-            </button>
+            <button className="bg-gradient-to-b from-[#0579C6] to-[#5901B1] rounded-lg px-[5px] md:px-[10px] md:py-[5px] text-white">{t("after")}</button>
             <Image src={after} alt="python image" className="w-5/6" />
           </div>
         </div>
         <div className="flex items-center justify-between m-auto gap-10 flex-col md:flex-row container">
           <div className="flex-1 flex items-center justify-center flex-col px-10 gap-10 ">
             <Image src={icon1} alt="python image" className="w-[60px] " />
-            <div className="font-normal text-sm md:text-[30px] leading-8">
-              {t("redesignheading1")}
-            </div>
+            <div className="font-normal text-sm md:text-[30px] leading-8">{t("redesignheading1")}</div>
             <div className="rtl:text-right">{t("redesignpara1")}</div>
           </div>
           <div className="flex-1 flex items-center justify-center flex-col px-10 gap-10">
             <Image src={icon2} alt="python image" className="w-[60px]" />
-            <div className="font-normal text-sm md:text-[30px] leading-8">
-              {t("redesignheading2")}
-            </div>
+            <div className="font-normal text-sm md:text-[30px] leading-8">{t("redesignheading2")}</div>
             <div className="rtl:text-right">{t("redesignpara2")}</div>
           </div>
           <div className="flex-1 flex items-center justify-center flex-col px-10 gap-10">
             <Image src={icon3} alt="python image" className="w-[60px]" />
-            <div className="font-normal text-sm md:text-[30px] leading-8">
-              {t("redesignheading3")}
-            </div>
+            <div className="font-normal text-sm md:text-[30px] leading-8">{t("redesignheading3")}</div>
             <div className="rtl:text-right">{t("redesignpara3")}</div>
           </div>
         </div>
