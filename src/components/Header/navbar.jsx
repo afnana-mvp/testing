@@ -23,9 +23,15 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showCoding, setShowCoding] = useState(false);
   const [showMedia, setShowMedia] = useState(false);
+  const [showWriting, setShowWriting] = useState(false);
+
   const [showMobile, setShowMobile] = useState(false);
 
   useEffect(() => {
+    if (window.innerWidth <= 768) {
+      return;
+    }
+
     const handleClickOutside = (event) => {
       if (
         clickOutsideRef.current &&
@@ -34,6 +40,7 @@ const Navbar = () => {
         setShowMenu(false);
         setShowCoding(false);
         setShowMedia(false);
+        setShowWriting(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -74,6 +81,25 @@ const Navbar = () => {
     {
       name: "removevideo",
       link: "/media/rmvideo",
+    },
+  ];
+
+  const writingData = [
+    {
+      name: "facebook",
+      link: "/writing/facebook",
+    },
+    {
+      name: "linkedin",
+      link: "/writing/linkedin",
+    },
+    {
+      name: "tweet",
+      link: "/writing/tweet",
+    },
+    {
+      name: "ads",
+      link: "/writing/ads",
     },
   ];
 
@@ -169,7 +195,7 @@ const Navbar = () => {
   };
 
   return (
-    <main className="sticky top-0 bg-black z-10">
+    <main className="sticky top-0 bg-black z-20">
       <nav className="container lg:mx-auto mx-auto px-3 py-2 flex justify-between items-center">
         <section className="flex items-center gap-2 lg:gap-10 text-sm font-semibold tracking-wide justify-between">
           <button
@@ -243,6 +269,7 @@ const Navbar = () => {
                       onClick={() => {
                         setShowCoding(!showCoding);
                         setShowMedia(false);
+                        setShowWriting(false);
                       }}
                     >
                       <button>{t("Coding")}</button>
@@ -274,6 +301,7 @@ const Navbar = () => {
                       onClick={() => {
                         setShowMedia(!showMedia);
                         setShowCoding(false);
+                        setShowWriting(false);
                       }}
                     >
                       <button>{t("Media")}</button>
@@ -300,6 +328,40 @@ const Navbar = () => {
                         </ul>
                       )}
                     </li>
+                    {/* testing */}
+                    <li
+                      className="text-white flex justify-between gap-2 cursor-pointer px-5 py-2 items-center hover:text-[#026fad]"
+                      onClick={() => {
+                        setShowWriting(!showWriting);
+                        setShowMedia(false);
+                        setShowCoding(false);
+                      }}
+                    >
+                      <button>{t("Writing")}</button>
+                      <ChevronDown className="w-5" />
+                    </li>
+                    <li>
+                      {showWriting && (
+                        <ul className="text-white text-center rounded-md">
+                          {writingData.map((item, index) => (
+                            <Link
+                              href={item.link}
+                              key={index}
+                              onClick={() => {
+                                setShowMenu(false);
+                                setShowWriting(false);
+                                setShowMobile(false);
+                              }}
+                            >
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">
+                                {t(item.name)}
+                              </li>
+                            </Link>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                    {/* testing */}
                   </ul>
                 )}
               </li>
@@ -351,6 +413,7 @@ const Navbar = () => {
                 onClick={() => {
                   setShowMedia(false);
                   setShowCoding(false);
+                  setShowWriting(false);
                   setShowMenu(!showMenu);
                 }}
                 className="flex justify-between gap-2 items-center"
@@ -365,6 +428,7 @@ const Navbar = () => {
                     onClick={() => {
                       setShowCoding(!showCoding);
                       setShowMedia(false);
+                      setShowWriting(false);
                     }}
                   >
                     <button>{t("Coding")}</button>
@@ -394,6 +458,7 @@ const Navbar = () => {
                     onClick={() => {
                       setShowMedia(!showMedia);
                       setShowCoding(false);
+                      setShowWriting(false);
                     }}
                   >
                     <button>{t("Media")}</button>
@@ -417,6 +482,38 @@ const Navbar = () => {
                       </ul>
                     )}
                   </li>
+                  {/* testing */}
+                  <li
+                    className="text-black flex justify-between gap-2 cursor-pointer px-5 py-2 items-center hover:text-[#026fad]"
+                    onClick={() => {
+                      setShowWriting(!showWriting);
+                      setShowMedia(false);
+                      setShowCoding(false);
+                    }}
+                  >
+                    <button>{t("Writing")}</button>
+                    <ChevronRight className="w-5 rtl:rotate-180" />
+                    {showWriting && (
+                      <ul className="bg-white text-start  w-40 rounded-md absolute left-[10.2rem] rtl:right-[10.2rem] top-1">
+                        {writingData.map((item, index) => (
+                          <Link
+                            href={item.link}
+                            key={index}
+                            onClick={() => {
+                              setShowMenu(false);
+                              setShowWriting(false);
+                            }}
+                            className=" :hover:bg-black/50]"
+                          >
+                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">
+                              {t(item.name)}
+                            </li>
+                          </Link>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                  {/* testing */}
                 </ul>
               )}
             </li>

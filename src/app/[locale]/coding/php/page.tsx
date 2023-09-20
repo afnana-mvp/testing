@@ -12,8 +12,8 @@ const CssCoding = () => {
 
   return (
     <div className="bg-background_color  flex items-center justify-center flex-col gap-[50px] text-center">
-      <div className="flex items-center w-full justify-center bg-[url('../../public/coding/css/css_main.png')]  bg-cover bg-center	bg-no-repeat h-[90vh] ">
-        <h1 className="text-white text-center text-xl md:text-5xl font-semibold container  ">
+      <div className="flex items-center w-full justify-center bg-[url('../../public/coding/csharp_tool/csharp_main.png')]  bg-cover bg-center	bg-no-repeat h-[90vh] ">
+        <h1 className="text-white text-center text-xl md:text-3xl font-semibold container  ">
           {t("phpimageText")} <span className="araby_ai"> ArabyAi</span>
         </h1>
       </div>
