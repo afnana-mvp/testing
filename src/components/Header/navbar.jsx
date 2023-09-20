@@ -17,7 +17,6 @@ import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const clickOutsideRef = useRef();
-  console.log(clickOutsideRef);
   const t = useTranslations("Header");
   const pathname = usePathname();
   const locale = useLocale();
@@ -147,7 +146,7 @@ const Navbar = () => {
   };
 
   return (
-    <main className="sticky top-0 bg-black z-10">
+    <main className="sticky top-0 bg-black z-20">
       <nav className="container lg:mx-auto mx-auto px-3 py-2 flex justify-between items-center">
         <section className="flex items-center gap-2 lg:gap-10 text-sm font-semibold tracking-wide justify-between">
           <button className="lg:hidden block transition-transform" onClick={mobileMenu}>
