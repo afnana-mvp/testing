@@ -122,10 +122,10 @@
 
   "CCoding": {
     "cimageText": "Powerful for [ developers ] C",
-    "language by":"Language by",
+    "language by": "Language by",
     "ciconText": "Certainly! Here is some information about the C programming language:C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. It is a low-level language that provides a high degree of control over hardware and memory, making it suitable for system programming and developing efficient applications.",
     "cheading": " How to Generate C Code by",
-    "chelpheading": "How can I help you?",  
+    "chelpheading": "How can I help you?",
     "center": " Enter",
     "chelpText": " Araby.AI can be a valuable assistant for C programmers by automating repetitive tasks, enhancing code quality, and providing intelligent suggestions and insights throughout the software development process. ",
     "cbullet1": "Code Generation and Autocompletion",
@@ -217,7 +217,7 @@
   },
   "Html": {
     "htmlimageText": "Powerful for [ developers ] HTML",
-    "language by":"Language by",
+    "language by": "Language by",
     "htmliconText": "HTML stands for Hypertext Markup Language. It is the standard markup language used for creating web pages and applications on the internet. HTML uses tags to structure the content and define the elements on a webpage, such as headings, paragraphs, images, links, and more. It is the backbone of every web page and is essential for creating and displaying content on the internet.",
     "htmlheading": " How to Generate Html Code by ",
     "htmlhelpHeading": "How can I help you?",
@@ -236,7 +236,7 @@
   },
   "Css": {
     "cssimageText": "Powerful for [ developers ] CSS",
-    "language by":"Language by",
+    "language by": "Language by",
     "cssiconText": "CSS stands for Cascading Style Sheets. It is a programming language used for styling web pages and defining the layout, colors, fonts, and other visual aspects of a website. CSS allows web developers to separate the design and presentation of a website from its structure and content. It is widely used in conjunction with HTML and JavaScript to create visually appealing and responsive web pages.",
     "cssheading": " How to Generate Css Code by ",
     "csshelpHeading": "How can I help you?",
@@ -255,7 +255,7 @@
   },
   "Ruby": {
     "rubyimageText": "Powerful for [ developers ] Ruby",
-    "language by":"Language by",
+    "language by": "Language by",
     "rubyiconText": "Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. It was created in the mid-1990s by Yukihiro Matsumoto, also known as Matz. Here are some key points about Ruby:",
     "rubyheading": " How to Generate Ruby Code by ",
     "rubyhelpHeading": "How can I help you?",
@@ -274,7 +274,7 @@
   },
   "Php": {
     "phpimageText": "Powerful for [ developers ] Php",
-    "language by":"Language by",
+    "language by": "Language by",
     "phpiconText": "PHP (Hypertext Preprocessor) is a popular server-side scripting language used for web development. It is primarily used for creating dynamic web pages and web applications. Here are some key points about PHP",
     "phpheading": " How to Generate Php Code by ",
     "phphelpHeading": "How can I help you?",
@@ -293,7 +293,7 @@
   },
   "Dart": {
     "dartimageText": "Powerful for [ developers ] Dart",
-    "language by":"Language by",
+    "language by": "Language by",
     "darticonText": "Dart is a programming language developed by Google. It is an object-oriented, class-based language that is designed for building scalable and high-performance applications. Here are some key features and aspects of Dart programming:",
     "dartheading": " How to Generate Dart Code by ",
     "darthelpHeading": "How can I help you?",
@@ -414,9 +414,14 @@
     "email1list2": "Cold",
     "email1list3": "Email Subject",
     "email1list4": "Email Milestone",
-    "emailpara1": "Experience the benefits  of using Araby.ai for  writing work-related emails that leave a lasting impression.",
+    "emailpara1": "Experience the benefits",
+    "emailpara1_2": "of using Araby.ai for",
+    "emailpara1_3": "writing work-related",
+    "emailpara1_4": "emails that leave a",
+    "emailpara1_5": "lasting impression.",
     "emailpara2": "From crafting professional and persuasive language to ensuring clear and concise communication, Araby.ai helps you save time and effort while maintaining a polished and impactful email style. Whether it's crafting business proposals, client communications, or internal memos, let Araby.ai be your trusted assistant for efficient and effective email writing.",
-    "emailheading2": "Araby.ai is your go-to tool for anything you need! ",
+    "emailheading2": "Araby.ai is your go-to tool",
+    "emailheading2_1": "for anything you need! ",
     "email2list1": "Special Events Card",
     "email2list2": "Promotional Email",
     "email2list3": "DM",
@@ -462,6 +467,7 @@
     "facebook": "facebook",
     "tweet": "tweet",
     "ads": "ads",
-    "linkedin": "linkedin"
+    "linkedin": "linkedin",
+    "email": "email"
   }
 }

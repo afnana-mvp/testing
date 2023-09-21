@@ -33,10 +33,7 @@ const Navbar = () => {
     }
 
     const handleClickOutside = (event) => {
-      if (
-        clickOutsideRef.current &&
-        !clickOutsideRef.current.contains(event.target)
-      ) {
+      if (clickOutsideRef.current && !clickOutsideRef.current.contains(event.target)) {
         setShowMenu(false);
         setShowCoding(false);
         setShowMedia(false);
@@ -101,6 +98,10 @@ const Navbar = () => {
       name: "ads",
       link: "/writing/ads",
     },
+    {
+      name: "email",
+      link: "/writing/email",
+    },
   ];
 
   const codingData = [
@@ -154,36 +155,16 @@ const Navbar = () => {
     const newLocale = pathname.replace("/en/", "/ar/");
     if (locale === "en") {
       return (
-        <LLink
-          href={newLocale}
-          locale="ar"
-          className="py-1 px-1 md:py-2 md:px-3 border border-[#4F5689] rounded-full flex items-center gap-2"
-        >
-          <Image
-            src={saudi}
-            alt="company logo"
-            width={20}
-            loading="lazy"
-            className="w-5 md:auto border-2 rounded-full border-white "
-          />
+        <LLink href={newLocale} locale="ar" className="py-1 px-1 md:py-2 md:px-3 border border-[#4F5689] rounded-full flex items-center gap-2">
+          <Image src={saudi} alt="company logo" width={20} loading="lazy" className="w-5 md:auto border-2 rounded-full border-white " />
           <span className="hidden md:block"> عربي</span>
         </LLink>
       );
     } else {
       const newLocale = pathname.replace("/ar/", "/en/");
       return (
-        <LLink
-          href={newLocale}
-          locale="en"
-          className="py-1 px-1 md:py-2 md:px-3 border border-[#4F5689] rounded-full flex items-center gap-2 rtl:flex-row-reverse"
-        >
-          <Image
-            src={uk}
-            alt="company logo"
-            width={25}
-            loading="lazy"
-            className="w-5 md:auto border-2 rounded-full border-white "
-          />
+        <LLink href={newLocale} locale="en" className="py-1 px-1 md:py-2 md:px-3 border border-[#4F5689] rounded-full flex items-center gap-2 rtl:flex-row-reverse">
+          <Image src={uk} alt="company logo" width={25} loading="lazy" className="w-5 md:auto border-2 rounded-full border-white " />
           <span className="hidden md:block">Eng</span>
         </LLink>
       );
@@ -198,65 +179,38 @@ const Navbar = () => {
     <main className="sticky top-0 bg-black z-20">
       <nav className="container lg:mx-auto mx-auto px-3 py-2 flex justify-between items-center">
         <section className="flex items-center gap-2 lg:gap-10 text-sm font-semibold tracking-wide justify-between">
-          <button
-            className="lg:hidden block transition-transform"
-            onClick={mobileMenu}
-          >
+          <button className="lg:hidden block transition-transform" onClick={mobileMenu}>
             {showMobile ? <X /> : <Menu />}
           </button>
-          <Image
-            src={logo}
-            alt="company logo"
-            width={65}
-            loading="lazy"
-            className="w-10 md:w-16 ltr:mr-5 rtl:ml-5"
-          />
+          <Image src={logo} alt="company logo" width={65} loading="lazy" className="w-10 md:w-16 ltr:mr-5 rtl:ml-5" />
           {showMobile && (
             <ul className="text-white text-xl absolute py-5 w-full text-center top-12 left-0 bg-black flex flex-col gap-5 justify-center items-center">
               <li className="hover:text-[#026fad]">
-                <Link
-                  href="/"
-                  className="flex justify-between gap-2 items-center"
-                >
+                <Link href="/" className="flex justify-between gap-2 items-center">
                   {t("Home")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link
-                  href="/pricing"
-                  className="flex justify-between gap-2 items-center"
-                >
+                <Link href="/pricing" className="flex justify-between gap-2 items-center">
                   {t("Pricing")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link
-                  href="/contact"
-                  className="flex justify-between gap-2 items-center"
-                >
+                <Link href="/contact" className="flex justify-between gap-2 items-center">
                   {t("Contact")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link
-                  href="/blogs"
-                  className="flex justify-between gap-2 items-center"
-                >
+                <Link href="/blogs" className="flex justify-between gap-2 items-center">
                   {t("Blogs")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link
-                  href="/business"
-                  className="flex justify-between gap-2 items-center"
-                >
+                <Link href="/business" className="flex justify-between gap-2 items-center">
                   {t("Business")}
                 </Link>
               </li>
-              <li
-                className="lg:hover:text-[#026fad]"
-                onClick={() => setShowMenu(!showMenu)}
-              >
+              <li className="lg:hover:text-[#026fad]" onClick={() => setShowMenu(!showMenu)}>
                 <button className="flex justify-between gap-2 items-center">
                   {t("Features")} <ChevronDown />
                 </button>
@@ -288,9 +242,7 @@ const Navbar = () => {
                                 setShowMobile(false);
                               }}
                             >
-                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">
-                                {t(item.name)}
-                              </li>
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
                             </Link>
                           ))}
                         </ul>
@@ -320,9 +272,7 @@ const Navbar = () => {
                                 setShowMobile(false);
                               }}
                             >
-                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">
-                                {t(item.name)}
-                              </li>
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
                             </Link>
                           ))}
                         </ul>
@@ -353,9 +303,7 @@ const Navbar = () => {
                                 setShowMobile(false);
                               }}
                             >
-                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">
-                                {t(item.name)}
-                              </li>
+                              <li className="relative flex items-center justify-between px-4 py-2 text-white hover:text-[#026fad]">{t(item.name)}</li>
                             </Link>
                           ))}
                         </ul>
@@ -369,42 +317,27 @@ const Navbar = () => {
           )}
           <ul className="hidden lg:flex items-center lg:gap-5 xl:gap-10 mx-5 md:mx-0">
             <li className=" hover:text-[#026fad]">
-              <Link
-                href="/"
-                className="flex justify-between gap-2 items-center"
-              >
+              <Link href="/" className="flex justify-between gap-2 items-center">
                 {t("Home")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link
-                href="/pricing"
-                className="flex justify-between gap-2 items-center"
-              >
+              <Link href="/pricing" className="flex justify-between gap-2 items-center">
                 {t("Pricing")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link
-                href="/contact"
-                className="flex justify-between gap-2 items-center"
-              >
+              <Link href="/contact" className="flex justify-between gap-2 items-center">
                 {t("Contact")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link
-                href="/blogs"
-                className="flex justify-between gap-2 items-center"
-              >
+              <Link href="/blogs" className="flex justify-between gap-2 items-center">
                 {t("Blogs")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link
-                href="/business"
-                className="flex justify-between gap-2 items-center"
-              >
+              <Link href="/business" className="flex justify-between gap-2 items-center">
                 {t("Business")}
               </Link>
             </li>
@@ -445,9 +378,7 @@ const Navbar = () => {
                             }}
                             className=" :hover:bg-black/50]"
                           >
-                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">
-                              {t(item.name)}
-                            </li>
+                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">{t(item.name)}</li>
                           </Link>
                         ))}
                       </ul>
@@ -474,9 +405,7 @@ const Navbar = () => {
                               setShowMedia(false);
                             }}
                           >
-                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">
-                              {t(item.name)}
-                            </li>
+                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">{t(item.name)}</li>
                           </Link>
                         ))}
                       </ul>
@@ -505,9 +434,7 @@ const Navbar = () => {
                             }}
                             className=" :hover:bg-black/50]"
                           >
-                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">
-                              {t(item.name)}
-                            </li>
+                            <li className="relative flex items-center justify-between px-4 py-2 text-black hover:text-[#026fad]">{t(item.name)}</li>
                           </Link>
                         ))}
                       </ul>
@@ -520,9 +447,7 @@ const Navbar = () => {
           </ul>
         </section>
         <section className="flex items-center gap-2 md:gap-5 text-sm tracking-wide">
-          <button className="text-[12px] mr-1 md:mr-0 md:text-sm font-semibold hover:text-[#026fad] ease-in duration-100">
-            {t("Logout")}
-          </button>
+          <button className="text-[12px] mr-1 md:mr-0 md:text-sm font-semibold hover:text-[#026fad] ease-in duration-100">{t("Logout")}</button>
           <button className="text-[10px] md:text-sm font-semibold px-4 md:px-10 py-0.5 md:py-3 rounded-full flex items-center gap-2 glow_button">
             {t("Join Now")} <ArrowRight className="w-5 rtl:rotate-180" />
           </button>
