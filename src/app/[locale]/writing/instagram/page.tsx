@@ -38,7 +38,7 @@ const Instagram = () => {
       </div>
 
       <div className=" w-5/6 bg-[url('../../public/writing/tiktok/bckgrnd2.png')] bg-contain lg:bg-cover container flex items-center justify-center	bg-no-repeat ">
-        <div className="flex items-center justify-center flex-col lg:flex-row-reverse container mt-10 w-2/3 gap-10">
+        <div className="flex items-center justify-center flex-col lg:flex-row-reverse container mt-10 md:w-5/6 gap-10">
           <Image src={image2} alt="art image" className="w-1/2 h-full" />
           <div className="  md:items-start items-center flex justify-center flex-col relative">
             <p className="  text-[16px] md:text-[20px]  ">{t("instapara1")}</p>
@@ -49,7 +49,7 @@ const Instagram = () => {
       </div>
 
       <div className="container flex items-center  justify-center flex-col-reverse lg:flex-row w-2/3 md:gap-5  pb-10 relative bg-[url('../../public/writing/tiktok/design.png')] 	bg-no-repeat  bg-contain  ">
-        <h1 className="font-semibold text-[40px] md:text-[50px] w-2/3  ">
+        <h1 className="font-semibold text-[20px] md:text-[50px]  ">
           {t("instahashtag")}
         </h1>
       </div>

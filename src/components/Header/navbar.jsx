@@ -101,6 +101,34 @@ const Navbar = () => {
       name: "ads",
       link: "/writing/ads",
     },
+    // {
+    //   name: "tiktok",
+    //   link: "/writing/tiktok",
+    // },
+    // {
+    //   name: "instagram",
+    //   link: "/writing/instagram",
+    // },
+    // {
+    //   name: "blog",
+    //   link: "/writing/blog",
+    // },
+    // {
+    //   name: "email",
+    //   link: "/writing/email",
+    // },
+    // {
+    //   name: "companycontent",
+    //   link: "/writing/companycontent",
+    // },
+    // {
+    //   name: "longdocument",
+    //   link: "/writing/longdocument",
+    // },
+    // {
+    //   name: "seo",
+    //   link: "/writing/seo",
+    // },
   ];
 
   const codingData = [
