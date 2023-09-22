@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="w-80 h-80 bg-[#8f00ff5c] opacity-[0.5] absolute blur-3xl -top-10 right-0" />
       <section className="text-sm container grid grid-cols-2 md:grid-cols-4 gap-10 mx-auto z-10 relative py-5">
         <div>
-          <h6 className="text-xl font-semibold text-[#e6e6e6]">Company</h6>
+          <span className="text-xl font-semibold text-[#e6e6e6]">Company</span>
           <ul className="grid gap-y-3 mt-2">
             <li className=" hover:text-blue text-[#c8c5c5]">
               <Link href="https://www.araby.ai/pricing">Pricing</Link>
@@ -33,7 +33,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="text-xl font-semibold text-[#e6e6e6]">Features</h6>
+          <span className="text-xl font-semibold text-[#e6e6e6]">Features</span>
           <ul className="grid gap-y-3 mt-2">
             <li className=" hover:text-blue text-[#c8c5c5]">
               <Link href="/writing/facebook">Text Generation</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="text-xl font-semibold text-[#e6e6e6]">Support</h6>
+          <span className="text-xl font-semibold text-[#e6e6e6]">Support</span>
           <ul className="grid gap-y-3 mt-2">
             <li className=" hover:text-blue text-[#c8c5c5]">
               <Link href="https://www.araby.ai/contact">Help Center</Link>
@@ -64,7 +64,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="text-xl font-semibold text-[#e6e6e6]">Follow Us</h6>
+          <span className="text-xl font-semibold text-[#e6e6e6]">Follow Us</span>
           <ul className="grid gap-y-3 mt-2">
             <li>
               <Link href="https://www.instagram.com/araby.ai/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
