@@ -13,9 +13,9 @@ const Facebook = () => {
   return (
     <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left overflow-hidden ">
       <div className="bg-[url('../../public/writing/facebook/bckgrnd1.png')] w-full bg-cover bg-center	bg-no-repeat flex items-center justify-center h-full md:pb-96 pb-10">
-        <div className="container flex items-center justify-center flex-col md:flex-row gap-10 ">
+        <div className="container flex items-center justify-center flex-col md:flex-row gap-10 mt-10 ">
           <Image src={image1} alt="art image" className="w-1/3" />
-          <div className=" flex  basis-1/2 flex-col  w-5/6 md:w-full">
+          <div className=" flex  basis-1/2 flex-col w-5/6 md:w-full">
             <h1 className="font-semibold text-[30px] md:text-[40px] ">
               {t("fbheading1part1")}{" "}
             </h1>
@@ -34,7 +34,7 @@ const Facebook = () => {
         </div>
       </div>
       <div className="container md:pt-72 flex items-center justify-center flex-col relative w-5/6">
-        <div className="font-semibold text-[30px] md:text-[35px] rtl:text-right z-[1]">
+        <div className="font-semibold text-[30px] md:text-[35px] rtl:text-right">
           {t("fbmainheading")}
         </div>
         <Image
@@ -46,7 +46,7 @@ const Facebook = () => {
         <div className="flex items-center justify-center flex-col lg:flex-row w-5/6 ">
           <Image src={image2} alt="art image" className="" />
           <div className="  md:items-start items-center flex justify-center flex-col relative">
-            <h1 className="font-semibold text-[20px] md:text-[25px] rtl:text-right z-[1]">
+            <h1 className="font-semibold text-[20px] md:text-[25px] rtl:text-right">
               {t("fbheading2")}
             </h1>
             <p className="  text-[12px] md:text-[20px] rtl:text-right ">
@@ -57,7 +57,7 @@ const Facebook = () => {
         </div>
       </div>
       <div className="container flex items-center  justify-center flex-col-reverse lg:flex-row w-2/3 md:gap-5  pb-10 relative">
-        <div className="flex items-center justify-center flex-col basis-1/2 rtl:text-right z-[1]">
+        <div className="flex items-center justify-center flex-col basis-1/2 rtl:text-right ">
           <p className="  text-[16px] md:text-[20px]  ">
             {t("fbheading3part1")}
           </p>

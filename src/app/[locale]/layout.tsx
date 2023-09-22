@@ -8,7 +8,7 @@ import { NextIntlClientProvider } from "next-intl";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 const arabic = Tajawal({
   subsets: ["arabic"],
@@ -18,6 +18,7 @@ const arabic = Tajawal({
 export const metadata: Metadata = {
   title: "Araby AI",
   description: "Introducing Araby.ai, the ultimate productivity Ai designed to empower your workflow with cutting-edge AI tools in both Arabic and English.",
+  themeColor: "#ffffff",
 };
 
 export default async function RootLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {
@@ -30,7 +31,7 @@ export default async function RootLayout({ children, params }: { children: React
   }
 
   return (
-    <html translate="no" dir={locale === "en" ? "ltr" : "rtl"} className="scroll-smooth">
+    <html lang={locale} translate="no" dir={locale === "en" ? "ltr" : "rtl"} className="scroll-smooth">
       <body className={locale === "en" ? poppins.className : arabic.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
