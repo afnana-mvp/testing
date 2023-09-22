@@ -18,6 +18,7 @@ const arabic = Tajawal({
 export const metadata: Metadata = {
   title: "Araby AI",
   description: "Introducing Araby.ai, the ultimate productivity Ai designed to empower your workflow with cutting-edge AI tools in both Arabic and English.",
+  themeColor: "#ffffff",
 };
 
 export default async function RootLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {

@@ -16,73 +16,73 @@ const Footer = () => {
       <div className="w-80 h-80 bg-[#8f00ff5c] opacity-[0.5] absolute blur-3xl -top-10 right-0" />
       <section className="text-sm container grid grid-cols-2 md:grid-cols-4 gap-10 mx-auto z-10 relative py-5">
         <div>
-          <h3 className="text-xl font-semibold text-[#e6e6e6]">Company</h3>
+          <h6 className="text-xl font-semibold text-[#e6e6e6]">Company</h6>
           <ul className="grid gap-y-3 mt-2">
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">About</Link>
+              <Link href="https://www.araby.ai/pricing">Pricing</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Blog</Link>
+              <Link href="https://blog.araby.ai/">Blog</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Careers</Link>
+              <Link href="https://www.araby.ai/business">Careers</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Contact</Link>
+              <Link href="https://www.araby.ai/contact">Contact</Link>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-[#e6e6e6]">Features</h3>
+          <h6 className="text-xl font-semibold text-[#e6e6e6]">Features</h6>
           <ul className="grid gap-y-3 mt-2">
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Text Generation</Link>
+              <Link href="/writing/facebook">Text Generation</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Image Generation</Link>
+              <Link href="/media/create">Image Generation</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Video Generation</Link>
+              <Link href="/media/rmvideo">Video Generation</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Audio Generation</Link>
+              <Link href="media/audio">Audio Generation</Link>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-[#e6e6e6]">Support</h3>
+          <h6 className="text-xl font-semibold text-[#e6e6e6]">Support</h6>
           <ul className="grid gap-y-3 mt-2">
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Help Center</Link>
+              <Link href="https://www.araby.ai/contact">Help Center</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Terms of Service</Link>
+              <Link href="https://www.araby.ai/terms-and-conditions">Terms of Service</Link>
             </li>
             <li className=" hover:text-blue text-[#c8c5c5]">
-              <Link href="">Privacy Policy</Link>
+              <Link href="https://www.araby.ai/privacy-and-policy">Privacy Policy</Link>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-[#e6e6e6]">Follow Us</h3>
+          <h6 className="text-xl font-semibold text-[#e6e6e6]">Follow Us</h6>
           <ul className="grid gap-y-3 mt-2">
             <li>
-              <Link href="https://www.facebook.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
-                <Facebook /> Facebook
-              </Link>
-            </li>
-            <li>
-              <Link href="https://www.twitter.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
-                <Icons.Twitter fill="white" className="w-6 h-5 hover:text-blue" /> Twitter
-              </Link>
-            </li>
-            <li>
-              <Link href="https://www.instagram.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+              <Link href="https://www.instagram.com/araby.ai/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
                 <Instagram /> Instagram
               </Link>
             </li>
             <li>
-              <Link href="https://www.linkedin.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+              <Link href="https://twitter.com/ai_araby" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+                <Icons.Twitter fill="white" className="w-6 h-5 hover:text-blue" /> Twitter
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.tiktok.com/@araby.ai" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+                <Facebook /> Tiktok
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.linkedin.com/company/araby-ai/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
                 <Linkedin /> LinkedIn
               </Link>
             </li>
@@ -98,14 +98,14 @@ const Footer = () => {
           <Image src={paypal} width={40} height={40} alt="paypal payment" />
         </div>
         <div className="flex items-center gap-5 flex-wrap">
-          <Link href="" className="flex gap-5 items-center bg-white text-black rounded-full py-2 px-3 w-48">
+          <Link href="https://apps.apple.com/in/app/araby-ai/id6447341656" className="flex gap-5 items-center bg-white text-black rounded-full py-2 px-3 w-48">
             <Image src={apple} width={30} height={30} alt="apple store" />
             <span>
               <h4 className="text-xs">DOWNLOAD ON THE</h4>
               <h5 className="text-base font-semibold">APPSTORE</h5>
             </span>
           </Link>
-          <Link href="" className="flex gap-5 items-center bg-white text-black rounded-full py-2 px-4  w-48">
+          <Link href="https://play.google.com/store/apps/details?id=com.araby.ai" className="flex gap-5 items-center bg-white text-black rounded-full py-2 px-4  w-48">
             <Image src={playstore} width={30} height={30} alt="play store" />
             <span>
               <h4 className="text-xs">GET IT ON</h4>

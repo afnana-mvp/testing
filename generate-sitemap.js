@@ -20,6 +20,14 @@ const pages = [
   "app/media/enhance",
   "app/media/redesign",
   "app/media/remove",
+  "/app/writing",
+  "/app/writing/blog",
+  "/app/writing/email",
+  "/app/writing/facebook",
+  "/app/writing/instagram",
+  "/app/writing/linkedin",
+  "/app/writing/tiktok",
+  "/app/writing/tweet",
 ];
 
 let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
@@ -31,7 +39,7 @@ const newData = new Date().toISOString();
 pages.forEach((page) => {
   sitemapContent += `
     <url>
-        <loc>https://www.yourwebsite.com/${page}</loc>
+        <loc>https://www.features.rvamp.com/${page}</loc>
         <lastmod>${newData}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
