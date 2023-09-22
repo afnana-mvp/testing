@@ -31,7 +31,7 @@ const CPlusCoding = () => {
           <div className="bg-[#1c1c1ccc] w-full  flex justify-center items-center flex-col gap-5  object-contain h-full">
             <div className="text-sm md:text-[40px] leading-[20px] md:leading-[40px] text-[#6A6A6A] text-left"> Araby AI</div>
             <div className="text-sm leading-[20px] md:leading-[40px] md:text-[40px] w-full">{t("cplushelpHeading")}</div>
-            <input className="border-2 border-[#6900FF] rounded-lg  w-5/6 p-2  text-[12px] md:text-[16px] text-black bg-[#1c1c1ccc]" />
+            <input className="border-2 border-[#6900FF] rounded-lg  w-5/6 p-2  text-[12px] md:text-[16px] text-black bg-[#1c1c1ccc]" name="input text for the demo" aria-label="demo input field" />
             <button className="bg-gradient-to-r from-[#880CC2] to-[#6900FF] px-10 py-1  text-white text-[8px] md:text-[20px]">{t("cplusenter")}</button>
           </div>
         </div>

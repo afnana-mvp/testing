@@ -101,14 +101,14 @@ const Footer = () => {
           <Link href="" className="flex gap-5 items-center bg-white text-black rounded-full py-2 px-3 w-48">
             <Image src={apple} width={30} height={30} alt="apple store" />
             <span>
-              <h6 className="text-xs">DOWNLOAD ON THE</h6>
+              <h4 className="text-xs">DOWNLOAD ON THE</h4>
               <h5 className="text-base font-semibold">APPSTORE</h5>
             </span>
           </Link>
           <Link href="" className="flex gap-5 items-center bg-white text-black rounded-full py-2 px-4  w-48">
             <Image src={playstore} width={30} height={30} alt="play store" />
             <span>
-              <h6 className="text-xs">GET IT ON</h6>
+              <h4 className="text-xs">GET IT ON</h4>
               <h5 className="text-base font-semibold">PLAYSTORE</h5>
             </span>
           </Link>

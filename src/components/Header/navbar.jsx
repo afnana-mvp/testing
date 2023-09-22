@@ -186,27 +186,27 @@ const Navbar = () => {
           {showMobile && (
             <ul className="text-white text-xl absolute py-5 w-full text-center top-12 left-0 bg-black flex flex-col gap-5 justify-center items-center">
               <li className="hover:text-[#026fad]">
-                <Link href="/" className="flex justify-between gap-2 items-center">
+                <Link href="https://www.araby.ai/" className="flex justify-between gap-2 items-center">
                   {t("Home")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link href="/pricing" className="flex justify-between gap-2 items-center">
+                <Link href="https://www.araby.ai/pricing" className="flex justify-between gap-2 items-center">
                   {t("Pricing")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link href="/contact" className="flex justify-between gap-2 items-center">
+                <Link href="https://www.araby.ai/contact" className="flex justify-between gap-2 items-center">
                   {t("Contact")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link href="/blogs" className="flex justify-between gap-2 items-center">
+                <Link href="https://blog.araby.ai/" className="flex justify-between gap-2 items-center">
                   {t("Blogs")}
                 </Link>
               </li>
               <li className="hover:text-[#026fad]">
-                <Link href="/business" className="flex justify-between gap-2 items-center">
+                <Link href="https://www.araby.ai/business" className="flex justify-between gap-2 items-center">
                   {t("Business")}
                 </Link>
               </li>
@@ -317,27 +317,27 @@ const Navbar = () => {
           )}
           <ul className="hidden lg:flex items-center lg:gap-5 xl:gap-10 mx-5 md:mx-0">
             <li className=" hover:text-[#026fad]">
-              <Link href="/" className="flex justify-between gap-2 items-center">
+              <Link href="https://www.araby.ai/" className="flex justify-between gap-2 items-center">
                 {t("Home")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link href="/pricing" className="flex justify-between gap-2 items-center">
+              <Link href="https://www.araby.ai/pricing" className="flex justify-between gap-2 items-center">
                 {t("Pricing")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link href="/contact" className="flex justify-between gap-2 items-center">
+              <Link href="https://www.araby.ai/contact" className="flex justify-between gap-2 items-center">
                 {t("Contact")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link href="/blogs" className="flex justify-between gap-2 items-center">
+              <Link href="https://blog.araby.ai/" className="flex justify-between gap-2 items-center">
                 {t("Blogs")}
               </Link>
             </li>
             <li className="hover:text-[#026fad]">
-              <Link href="/business" className="flex justify-between gap-2 items-center">
+              <Link href="https://www.araby.ai/business" className="flex justify-between gap-2 items-center">
                 {t("Business")}
               </Link>
             </li>
