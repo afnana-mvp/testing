@@ -1,178 +1,552 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://www.features.rvamp.com/app/locale</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/c</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/cplus</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/csharp</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/java</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/python</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/javascript</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/html</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/css</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/php</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/coding/ruby</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/media/art</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/media/audio</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/media/enhance</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/media/redesign</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com/app/media/remove</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/blog</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/email</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/facebook</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/instagram</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/linkedin</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/tiktok</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  
-    <url>
-        <loc>https://www.features.rvamp.com//app/writing/tweet</loc>
-        <lastmod>2023-09-22T07:01:37.665Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  </urlset>
+      <url>
+          <loc>https://www.features.rvamp.com/coding/c</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/c" />
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/c" />
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/c</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/c" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/c" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/cplus</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/cplus" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/cplus" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/cplus</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/cplus" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/cplus" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/csharp</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/csharp" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/csharp" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/csharp</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/csharp" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/csharp" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/java</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/java" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/java" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/java</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/java" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/java" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/python</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/python" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/python" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/python</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/python" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/python" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/javascript</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/javascript" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/javascript" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/javascript</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/javascript" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/javascript" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/html</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/html" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/html" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/html</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/html" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/html" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/css</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/css" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/css" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/css</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/css" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/css" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/php</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/php" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/php" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/php</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/php" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/php" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/coding/ruby</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/ruby" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/ruby" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/coding/ruby</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/coding/ruby" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/coding/ruby" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/media/art</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/art" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/art" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/media/art</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/art" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/art" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/media/audio</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/audio" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/audio" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/media/audio</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/audio" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/audio" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/media/enhance</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/enhance" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/enhance" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/media/enhance</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/enhance" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/enhance" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/media/redesign</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/redesign" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/redesign" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/media/redesign</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/redesign" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/redesign" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/media/remove</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/remove" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/remove" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/media/remove</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/media/remove" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/media/remove" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/blog</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/blog" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/blog" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/blog</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/blog" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/blog" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/email</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/email" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/email" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/email</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/email" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/email" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/facebook</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/facebook" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/facebook" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/facebook</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/facebook" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/facebook" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/instagram</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/instagram" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/instagram" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/instagram</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/instagram" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/instagram" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/linkedin</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/linkedin" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/linkedin" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/linkedin</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/linkedin" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/linkedin" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/tiktok</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/tiktok" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/tiktok" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/tiktok</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/tiktok" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/tiktok" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com/writing/tweet</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/tweet" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/tweet" />
+      
+      </url>
+    
+      <url>
+          <loc>https://www.features.rvamp.com-ar/writing/tweet</loc>
+          <lastmod>2023-09-22T09:04:38.765Z</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.features.rvamp.com/writing/tweet" />
+      
+          <xhtml:link rel="alternate" hreflang="ar" href="https://www.features.rvamp.com/ar/writing/tweet" />
+      
+      </url>
+    </urlset>

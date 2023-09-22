@@ -1,33 +1,31 @@
 console.log("Starting sitemap generation...");
 
 const { createWriteStream } = require("fs");
-
+const languages = ["en", "ar"];
 const pages = [
-  "app/locale",
-  "app/coding",
-  "app/coding/c",
-  "app/coding/cplus",
-  "app/coding/csharp",
-  "app/coding/java",
-  "app/coding/python",
-  "app/coding/javascript",
-  "app/coding/html",
-  "app/coding/css",
-  "app/coding/php",
-  "app/coding/ruby",
-  "app/media/art",
-  "app/media/audio",
-  "app/media/enhance",
-  "app/media/redesign",
-  "app/media/remove",
-  "/app/writing",
-  "/app/writing/blog",
-  "/app/writing/email",
-  "/app/writing/facebook",
-  "/app/writing/instagram",
-  "/app/writing/linkedin",
-  "/app/writing/tiktok",
-  "/app/writing/tweet",
+  "coding/c",
+  "coding/cplus",
+  "coding/csharp",
+  "coding/java",
+  "coding/python",
+  "coding/javascript",
+  "coding/html",
+  "coding/css",
+  "coding/php",
+  "coding/ruby",
+  "media/art",
+  "media/audio",
+  "media/enhance",
+  "media/redesign",
+  "media/remove",
+  "writing",
+  "writing/blog",
+  "writing/email",
+  "writing/facebook",
+  "writing/instagram",
+  "writing/linkedin",
+  "writing/tiktok",
+  "writing/tweet",
 ];
 
 let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
@@ -37,14 +35,28 @@ let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 const newData = new Date().toISOString();
 
 pages.forEach((page) => {
-  sitemapContent += `
-    <url>
-        <loc>https://www.features.rvamp.com/${page}</loc>
-        <lastmod>${newData}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-  `;
+  languages.forEach((lang) => {
+    const urlSuffix = lang === "en" ? "" : `-${lang}`;
+    sitemapContent += `
+      <url>
+          <loc>https://www.features.rvamp.com${urlSuffix}/${page}</loc>
+          <lastmod>${newData}</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>0.7</priority>
+    `;
+
+
+    languages.forEach((altLang) => {
+      const altUrlSuffix = altLang === "en" ? "" : `${altLang}`;
+      sitemapContent += `
+          <xhtml:link rel="alternate" hreflang="${altLang}" href="https://www.features.rvamp.com/${altUrlSuffix}/${page}" />
+      `;
+    });
+
+    sitemapContent += `
+      </url>
+    `;
+  });
 });
 
 sitemapContent += `</urlset>`;
