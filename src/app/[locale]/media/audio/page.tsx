@@ -4,8 +4,7 @@ import Image from "next/image";
 import headerimage from "~/media_section/audio/headerimage.png";
 import buttonleft from "~/media_section/audio/buttonleft.png";
 import buttonright from "~/media_section/audio/buttonright.png";
-import texttop from "~/media_section/audio/texttop.png";
-import textbottom from "~/media_section/audio/textbottom.png";
+import texttop from "~/media_section/audio/text.png";
 import image1design2 from "~/media_section/audio/image1design2.png";
 import image2design from "~/media_section/audio/image2design.png";
 import image2 from "~/media_section/audio/image2.png";
@@ -32,7 +31,7 @@ const Audio = () => {
 
       <div className="flex items-center justify-center flex-col gap-10 mt-5 md:mt-[50px] container mx-auto">
         <Image src={texttop} alt="art image" className="" />
-        <Image src={textbottom} alt="art image" className=" " />
+        {/* <Image src={textbottom} alt="art image" className=" " /> */}
       </div>
 
       <div className="flex items-center justify-center gap-10 mt-5 md:mt-[50px] container mx-auto flex-col md:flex-row">
