@@ -13,7 +13,7 @@ const LongDocument = () => {
   return (
     <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left font-poppins overflow-hidden">
       <div className="bg-[url('../../public/writing/longdocument/bckgrnd.png')] w-full flex items-center bg-cover bg-center	bg-no-repeat justify-center">
-        <div className="flex items-center md:items-end justify-center container flex-col md:flex-row ">
+        <div className="flex items-center md:items-end justify-center container flex-col md:flex-row w-5/6 ">
           <div className="flex items-center md:items-start justify-center flex-col gap-5 my-10 md:my-20">
             <h1 className="font-semibold text-[40px] md:text-[100px] leading-none">
               {t("lgheading1part1")}{" "}
@@ -21,7 +21,7 @@ const LongDocument = () => {
             <h1 className="font-semibold text-[40px] md:text-[100px]  leading-none">
               {t("lgheading1part2")}
             </h1>
-            <p className="  text-[12px] md:text-[20px] lg:w-2/3 rtl:text-right">
+            <p className="  text-[12px] md:text-[20px] lg:w-2/3 ">
               {t("lgpara1")}
             </p>
             <button

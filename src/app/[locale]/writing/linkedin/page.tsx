@@ -12,7 +12,7 @@ const LinkedIn = () => {
   return (
     <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left ">
       <div className="bg-[url('../../public/writing/linkedin/bckgrnd1.png')] w-full bg-cover bg-center	bg-no-repeat flex items-center justify-center h-full md:pb-96 pb-10">
-        <div className="container flex items-center justify-center flex-col mt-10 ">
+        <div className="container flex items-center justify-center flex-col mt-10 w-5/6">
           <h1 className="font-semibold text-[30px] lg:text-[60px]  ">
             {t("linkheading1part1")}{" "}
           </h1>
@@ -67,7 +67,7 @@ const LinkedIn = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className="   items-center flex justify-center flex-col gap-10 mt-10 relative">
+          <div className="   items-center flex justify-center flex-col gap-10 mt-10 relative z-[1]">
             <h1 className="font-semibold text-[20px] md:text-[25px] rtl:text-right">
               {t("linkheading2")}
             </h1>
@@ -79,7 +79,7 @@ const LinkedIn = () => {
         </div>
       </div>
       <div className="container flex items-center  justify-center flex-col lg:flex-row-reverse w-2/3 md:gap-5  pb-10 relative">
-        <div className="flex items-center justify-center flex-col  rtl:text-right ">
+        <div className="flex items-center justify-center flex-col  rtl:text-right z-[1] ">
           <p className="  text-[16px] md:text-[20px]  ">
             {t("linkheading3part1")}
           </p>
@@ -93,7 +93,7 @@ const LinkedIn = () => {
           className="md:h-[500px] object-contain"
         />
         <div className="w-[300px] h-[300px] origin-center rounded-full bg-gradient-to-t from-[#ca00fd40] to-[#001aff40] blur-2xl mr-0 absolute   -right-20 top-0"></div>
-        <div className="w-[200px] h-[200px] origin-center rounded-3xl bg-gradient-to-t from-[#018fe0ba] to-[#023d4d4a] blur-2xl mr-0 absolute   -left-10 bottom-0"></div>
+        <div className=" hidden md:block w-[200px] h-[200px] origin-center rounded-3xl bg-gradient-to-t from-[#018fe0ba] to-[#023d4d4a] blur-2xl mr-0 absolute   -left-10 bottom-0"></div>
       </div>
     </div>
   );

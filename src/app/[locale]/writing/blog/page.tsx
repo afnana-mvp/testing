@@ -10,7 +10,7 @@ const Blog = () => {
   const t = useTranslations("Blog");
 
   return (
-    <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left ">
+    <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left overflow-hidden">
       <div className="bg-[url('../../public/writing/blog/bckgrnd1.png')]  w-full bg-cover bg-center	bg-no-repeat flex items-center justify-center h-full  pb-10">
         <div className=" flex items-center justify-center container flex-col gap-20 w-5/6">
           <div className="flex items-center justify-center flex-col container  mt-20 ">
@@ -46,7 +46,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div className=" text-[16px] md:text-[30px] rtl:text-right container text-center flex items-center justify-center w-5/6 md:w-2/3 relative">
+      <div className=" text-[16px] md:text-[30px] rtl:text-right container text-center flex items-center justify-center w-5/6 md:w-2/3 relative z-[1]">
         {t("blogmainheading")}
         <div className="w-[300px] h-[300px] origin-center rounded-full bg-gradient-to-t from-[#ca00fd40] to-[#001aff40] blur-2xl mr-0 absolute   -right-40"></div>
       </div>

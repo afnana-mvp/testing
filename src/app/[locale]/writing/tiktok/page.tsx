@@ -10,7 +10,7 @@ const Tiktok = () => {
   const t = useTranslations("Tiktok");
 
   return (
-    <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left ">
+    <div className="flex items-center justify-center flex-col gap-[50px] bg-background_color text-center md:text-left overflow-hidden">
       <div className="bg-[url('../../public/writing/tiktok/bckgrnd1.png')] w-full bg-cover bg-center bg-no-repeat flex items-center justify-center h-full  pb-10">
         <div className="container flex items-center justify-center flex-col gap-5 md:gap-10 w-5/6 ">
           <div className="font-semibold text-[20px] md:text-[40px] mt-[100px] md:mt-[200px] container flex items-center flex-col">
@@ -65,7 +65,6 @@ const Tiktok = () => {
           alt="art image"
           className="md:w-1/2 object-contain"
         />
-        <div className="w-[200px] h-[200px] origin-center rounded-full bg-gradient-to-t from-[#ca00fd40] to-[#001aff40] blur-2xl mr-0 absolute   left-0 bottom-0"></div>
       </div>
     </div>
   );

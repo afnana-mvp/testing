@@ -14,11 +14,11 @@ const Tweet = () => {
       <div className="bg-[url('../../public/writing/tweet/bckgrnd.png')] w-full bg-cover bg-center	bg-no-repeat flex items-center justify-center h-full  pb-10">
         <div className="container flex items-center justify-center flex-col gap-10 ">
           <div className="mt-20">
-            <h1 className="font-semibold text-[30px] md:text-[40px]">
+            <h1 className="font-semibold text-[30px] md:text-[40px] rtl:text-right">
               {t("tweetheading1part1")}{" "}
             </h1>
             <div className="flex items-baseline">
-              <h1 className="font-semibold text-[30px] md:text-[100px] md:ml-[200px] leading-none">
+              <h1 className="font-semibold text-[30px] md:text-[100px] rtl:ml-1 md:ml-[200px] leading-none">
                 {t("tweetheading1part2")}
               </h1>
               <h1 className="font-semibold text-[30px] md:text-[40px] ">
@@ -40,7 +40,7 @@ const Tweet = () => {
         </div>
       </div>
       <div className="container  flex items-center justify-center flex-col relative w-5/6">
-        <div className="font-semibold text-[30px] md:text-[35px] rtl:text-right">
+        <div className="font-semibold text-[30px] md:text-[35px] rtl:text-right z-[1]">
           {t("tweetmainheading")}
         </div>
         {/* <Image
@@ -51,7 +51,7 @@ const Tweet = () => {
 
         <div className="flex items-center justify-center flex-col lg:flex-row w-5/6 ">
           <Image src={image2} alt="art image" className="" />
-          <div className="  md:items-start items-center flex justify-center flex-col relative">
+          <div className="  md:items-start items-center flex justify-center flex-col relative z-[1]">
             <h1 className="font-semibold text-[20px] md:text-[25px] rtl:text-right">
               {t("tweetheading2")}
             </h1>
@@ -63,7 +63,7 @@ const Tweet = () => {
         </div>
       </div>
       <div className="container flex items-center  justify-center flex-col-reverse lg:flex-row w-2/3 md:gap-5  pb-10 relative">
-        <div className="flex items-center justify-center flex-col basis-1/2 rtl:text-right ">
+        <div className="flex items-center justify-center flex-col basis-1/2 rtl:text-right z-[1]">
           <p className="  text-[16px] md:text-[20px]  ">
             {t("tweetheading3part1")}
           </p>

@@ -19,10 +19,10 @@ const RemoveBg = () => {
             <div className="w-1/2 right-0 left-0 h-full origin-center rounded-lg bg-gradient-to-r from-[#5901b16e] to-[#ff73b66e] blur-2xl absolute m-auto  "></div>
           </div>
 
-          <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] text-center ">
+          <h1 className="text-white text-sm md:text-[30px] font-bold leading-[20px] md:leading-[40px] text-center z-[1]">
             {t("rmbgheaderText")} <span className="araby_ai">ArabyAi</span>
           </h1>
-          <div className="text-[12px] md:text-[20px] font-light text-center">
+          <div className="text-[12px] md:text-[20px] font-light text-center z-[1]">
             {t("rmbgheaderTextSupport")}
           </div>
         </div>
@@ -48,7 +48,7 @@ const RemoveBg = () => {
           </div>
           <div className="w-[300px] h-1/3 origin-center rounded-lg bg-gradient-to-r from-[#5901b16e] via-[#ff73b66e] to-background_color blur-2xl absolute -right-20 bottom-0"></div>
         </div>
-        <div className="text-[8px] md:text-[16px]">
+        <div className="text-[8px] md:text-[16px] z-[1]">
           {" "}
           {t("rmbgauthentic")}{" "}
           <span className="font-bold">{t("rmbgauthenticBold")}</span>

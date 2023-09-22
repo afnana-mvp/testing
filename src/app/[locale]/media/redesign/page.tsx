@@ -18,7 +18,7 @@ const Redesign = () => {
         <div className="flex items-center justify-center flex-col-reverse">
           <Image src={header_bottom} alt="python image" className=" " />
           <div className=" container max-w-screen-lg ">
-            <div className="flex items-start md:items-start my-100 flex-col flex-1 gap-[10px] md:gap-[20px] text-left rtl:text-right">
+            <div className="flex items-start md:items-start my-100 flex-col flex-1 gap-[10px] md:gap-[20px] text-left rtl:text-right z-[1]">
               <h1 className="text-white text-xl md:text-4xl font-semibold !leading-relaxed">
                 {t("redesignheaderText")}
                 <span className="bg-gradient-to-r from-[#216BD9] to-[#7BADF2] inline-block text-transparent bg-clip-text outline-[1px]">

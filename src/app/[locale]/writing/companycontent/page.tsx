@@ -151,7 +151,9 @@ const CompanyContent = () => {
         <div className="w-[300px] h-[300px] origin-center rounded-full bg-gradient-to-t from-[#ca00fd40] to-[#001aff40] blur-2xl mr-0 absolute top-0  -right-40"></div>
         <div className="w-[300px] h-[300px] origin-center rounded-full bg-gradient-to-t from-[#ca00fd40] to-[#001aff40] blur-2xl mr-0 absolute bottom-0  -left-40"></div>
         <div className="flex items-center justify-center flex-col  container mt-10 md:w-5/6 gap-10 md:gap-10 ">
-          <p className="  text-[16px] md:text-[20px]  ">{t("ccmainheading")}</p>
+          <p className="  text-[16px] md:text-[20px] z-[1]  ">
+            {t("ccmainheading")}
+          </p>
           {/* <Image src={image2} alt="art image" className="w-full" /> */}
           {/* one row of grid start */}
           <div className="flex items-center justify-center gap-[20px] flex-col ">
