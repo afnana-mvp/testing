@@ -1,4 +1,7 @@
-import Cplus from "@/components/Ui/Coding/Cplus";
+import dynamic from "next/dynamic";
+
+const Cplus = dynamic(() => import("@/components/Ui/Coding/Cplus"));
+
 import Head from "next/head";
 
 const CPlusCoding = () => {
