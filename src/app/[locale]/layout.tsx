@@ -30,7 +30,7 @@ export default async function RootLayout({ children, params }: { children: React
   }
 
   return (
-    <html translate="no" dir={locale === "en" ? "ltr" : "rtl"} className="scroll-smooth">
+    <html lang={locale} translate="no" dir={locale === "en" ? "ltr" : "rtl"} className="scroll-smooth">
       <body className={locale === "en" ? poppins.className : arabic.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />

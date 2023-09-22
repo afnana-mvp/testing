@@ -15,73 +15,81 @@ const Footer = () => {
       <div className="w-80 h-80 bg-[#0038FF] opacity-[0.2] md:opacity-[0.4] absolute blur-[120px] -top-10 -left-10" />
       <div className="w-80 h-80 bg-[#8f00ff5c] opacity-[0.5] absolute blur-3xl -top-10 right-0" />
       <section className="text-sm container grid grid-cols-2 md:grid-cols-4 gap-10 mx-auto z-10 relative py-5">
-        <ul className=" grid gap-y-3">
+        <div>
           <h3 className="text-xl font-semibold text-[#e6e6e6]">Company</h3>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">About</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Blog</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Careers</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Contact</li>
-          </Link>
-        </ul>
-        <ul className="grid gap-y-3">
+          <ul className="grid gap-y-3 mt-2">
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">About</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Blog</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Careers</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Contact</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
           <h3 className="text-xl font-semibold text-[#e6e6e6]">Features</h3>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Text Generation</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Image Generation</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Video Generation</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Audio Generation</li>
-          </Link>
-        </ul>
-        <ul className="grid gap-y-3">
+          <ul className="grid gap-y-3 mt-2">
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Text Generation</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Image Generation</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Video Generation</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Audio Generation</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
           <h3 className="text-xl font-semibold text-[#e6e6e6]">Support</h3>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Help Center</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Terms of Service</li>
-          </Link>
-          <Link href="">
-            <li className=" hover:text-blue text-[#c8c5c5]">Privacy Policy</li>
-          </Link>
-        </ul>
-        <ul className="grid gap-y-3">
+          <ul className="grid gap-y-3 mt-2">
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Help Center</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Terms of Service</Link>
+            </li>
+            <li className=" hover:text-blue text-[#c8c5c5]">
+              <Link href="">Privacy Policy</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
           <h3 className="text-xl font-semibold text-[#e6e6e6]">Follow Us</h3>
-          <Link href="https://www.facebook.com/">
-            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
-              <Facebook /> Facebook
+          <ul className="grid gap-y-3 mt-2">
+            <li>
+              <Link href="https://www.facebook.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+                <Facebook /> Facebook
+              </Link>
             </li>
-          </Link>
-          <Link href="https://www.twitter.com/">
-            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
-              <Icons.Twitter fill="white" className="w-6 h-5 hover:text-blue" /> Twitter
+            <li>
+              <Link href="https://www.twitter.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+                <Icons.Twitter fill="white" className="w-6 h-5 hover:text-blue" /> Twitter
+              </Link>
             </li>
-          </Link>
-          <Link href="https://www.instagram.com/">
-            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
-              <Instagram /> Instagram
+            <li>
+              <Link href="https://www.instagram.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+                <Instagram /> Instagram
+              </Link>
             </li>
-          </Link>
-          <Link href="https://www.linkedin.com/">
-            <li className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
-              <Linkedin /> LinkedIn
+            <li>
+              <Link href="https://www.linkedin.com/" className=" hover:text-blue flex items-center gap-3 text-[#c8c5c5]">
+                <Linkedin /> LinkedIn
+              </Link>
             </li>
-          </Link>
-        </ul>
+          </ul>
+        </div>
       </section>
-      <h5 className="container mx-auto mt-7 text-sm relative z-10">We accept payments online using Visa and MasterCard credit/debit card in SAR</h5>
+      <p className="container mx-auto mt-7 text-sm relative z-10">We accept payments online using Visa and MasterCard credit/debit card in SAR</p>
       <section className="container mx-auto flex gap-5 md:gap-10 items-center relative justify-between z-10 flex-wrap">
         <div className="flex gap-5 md:gap-10 items-center flex-wrap">
           <Image src={mada} width={100} alt="mada branding" className="w-20" />
